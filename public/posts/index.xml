@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on CAN</title>
+    <link>http://cansurmeli.com/posts/</link>
+    <description>Recent content in Posts on CAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cansurmeli.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips for iPhone Repair</title>
+      <link>http://cansurmeli.com/posts/9-tips-for-iphone-repair/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/9-tips-for-iphone-repair/</guid>
+      <description>For some time, I&amp;rsquo;ve been fixing my and my circle&amp;rsquo;s iPhones in terms of hardware difficulties: battery change, screen replacement, etc.
+As you may know, I also open up other things but in this post, I would like to share my experiences when opening up an iPhone as in what to do and not to do.
+Actually, before we get started, these are really small details that might seem funny and idiotic at first but trust me, the devil is hiding in the details.</description>
+    </item>
+    
+    <item>
+      <title>CAN&#39;s Pancake Recipe: Healthy &amp; Protein Packed</title>
+      <link>http://cansurmeli.com/posts/8-cans-pancake-recipe---healthy--protein-packed/</link>
+      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/8-cans-pancake-recipe---healthy--protein-packed/</guid>
+      <description>I most definitely enjoy eating! Especially, a good breakfast. Nothing holds the place of some delicious food with some coffee in the morning.
+As a sportsman, I&amp;rsquo;ve to eat healthy in order to properly fuel my body. Therefore things like a piece or two of bread with some jam on top or a croissant are out of the picture for me. Besides, I&amp;rsquo;ve been eating healthy for a very long time and I don&amp;rsquo;t want to taste such food anyway.</description>
+    </item>
+    
+    <item>
+      <title>A Developer Freeing Up Space on macOS</title>
+      <link>http://cansurmeli.com/posts/7-a-developer-freeing-up-space-on-macos/</link>
+      <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/7-a-developer-freeing-up-space-on-macos/</guid>
+      <description>Even though there are various articles on the web regarding how to free up space on your Mac; those articles are usually for end-users with basic instructions such as delete watched iTunes content, clear out your Trash and etc.
+As developers, we have different needs and usage patterns. Therefore if a developer wants to free up space on macOS, he/she needs to look elsewhere.
+Clear Out 3rd Party Stuff You&amp;rsquo;re probably using a dependency manager such as Carthage.</description>
+    </item>
+    
+    <item>
+      <title>Install Swift on Debian</title>
+      <link>http://cansurmeli.com/posts/6-install-swift-on-debian/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/6-install-swift-on-debian/</guid>
+      <description>Recently, I had to use Swift on Debian for a small project of mine.
+There are various installation procedures on the web for installing Swift on Linux but they&amp;rsquo;re mostly for Ubuntu. Since things change with every Linux distribution, I want to share what I did.
+The following procedure will cover installing Swift 4.1.2 on Debian Jessie.
+ Make sure your Debian system is up-to-date,
+$ sudo apt-get update &amp;amp;&amp;amp; sudo apt-get upgrade  Install the dependencies required by Swift</description>
+    </item>
+    
+    <item>
+      <title>Enabling Hidden Xcode Simulator Features</title>
+      <link>http://cansurmeli.com/posts/5-enabling-hidden-xcode-simulator-features/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/5-enabling-hidden-xcode-simulator-features/</guid>
+      <description>Apple has some nice little features for the simulator in Xcode to boost your productivity or improve your environment. However, unfortunately, even if they&amp;rsquo;re currently fully functional, they&amp;rsquo;re hidden away. And knowing Apple, they&amp;rsquo;ll most probably keep it that way.
+Although, that doesn&amp;rsquo;t mean these features were meant to stay hidden. You can enable them yourself. It used to be that only a single Terminal command of sudo mkdir /AppleInternal would enable it but as it has been commented out to me, it seems that Apple put some safe guards against this command.</description>
+    </item>
+    
+    <item>
+      <title>CAT Cable Guide for Humans</title>
+      <link>http://cansurmeli.com/posts/4-cat-cable-explanation-for-humans/</link>
+      <pubDate>Wed, 30 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/4-cat-cable-explanation-for-humans/</guid>
+      <description>A while ago, I learned that for some time building contractor’s were using ethernet cables to build the telephony network running inside homes. Since RJ11(telephone jack) requires only two copper wires to function, the contractor uses ethernet cables(which have either 6 or 8 copper wires) to build up the telephony network, connects only 2 of those 6 or 8 wires and leaves out the rest hanging. The reasoning behind this: well easy, not much of a price difference between regular telephony networking cable and ethernet cable.</description>
+    </item>
+    
+    <item>
+      <title>White Lines on iPhone Screen after Battery Replacement</title>
+      <link>http://cansurmeli.com/posts/3-white-lines-on-iphone-screen-after-battery-replacement/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/3-white-lines-on-iphone-screen-after-battery-replacement/</guid>
+      <description>I’m a DIY person. I believe in the mantra of iFixit: “repair is noble”. Even though my iPhone 6 was under warranty, I never thought of taking it to Apple to get it’s battery replaced free of charge when the battery started dying when it reached somewhere in between 30-20%. Bad battery. 😝
+Maybe it was the long waiting lines of the Genius Bar or my passion for fixing stuff going on in my subconscious that lead me not to go to Apple.</description>
+    </item>
+    
+    <item>
+      <title>Extracting Data from an iOS Backup</title>
+      <link>http://cansurmeli.com/posts/2-extracting-data-from-an-ios-backup/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/2-extracting-data-from-an-ios-backup/</guid>
+      <description>My little cousin(about 10 years old) broke her iPad in terms of software; don’t ask me the specifics, she somehow managed it which totally baffles me. Anyways, it was requesting an iTunes connection and had be restored. Given her age, she didn’t properly managed her iPad; meaning her photos were not stored on the cloud or even she didn’t had an up-to-date backup.
+She really wanted her photos back and fortunately I found an old backup residing on her family Mac.</description>
+    </item>
+    
+    <item>
+      <title>My Adventures Opening up my iMac</title>
+      <link>http://cansurmeli.com/posts/1-my-adventures-opening-up-my-imac/</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/1-my-adventures-opening-up-my-imac/</guid>
+      <description>A while ago, I performed a brain surgery on my iMac. I removed the optical disc drive, put a SSD in place and combined the SSD with the already installed HDD in order to create a fusion drive in order to achieve a much much better performance while increasing my storage.
+Before I leave you out with my words, I think you should have a look at the time-lapse video of the procedure.</description>
+    </item>
+    
+  </channel>
+</rss>

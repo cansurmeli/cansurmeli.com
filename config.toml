@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
 disqusShortname = "c_surmeli@icloud.com" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "UA-75422354-1"
 
 [params]
     author = "Can Sürmeli"
@@ -32,10 +32,10 @@ googleAnalytics = ""
     name = "Posts"
     weight = 3
 
-[[menu.main]]
-    url = "/projects/"
-    name = "Projects"
-    weight = 4
+#[[menu.main]]
+    #url = "/projects/"
+    #name = "Projects"
+    #weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used

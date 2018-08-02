@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on CAN</title>
+    <link>http://cansurmeli.com/tags/hardware/</link>
+    <description>Recent content in Hardware on CAN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://cansurmeli.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips for iPhone Repair</title>
+      <link>http://cansurmeli.com/posts/9-tips-for-iphone-repair/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/9-tips-for-iphone-repair/</guid>
+      <description>For some time, I&amp;rsquo;ve been fixing my and my circle&amp;rsquo;s iPhones in terms of hardware difficulties: battery change, screen replacement, etc.
+As you may know, I also open up other things but in this post, I would like to share my experiences when opening up an iPhone as in what to do and not to do.
+Actually, before we get started, these are really small details that might seem funny and idiotic at first but trust me, the devil is hiding in the details.</description>
+    </item>
+    
+    <item>
+      <title>White Lines on iPhone Screen after Battery Replacement</title>
+      <link>http://cansurmeli.com/posts/3-white-lines-on-iphone-screen-after-battery-replacement/</link>
+      <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/3-white-lines-on-iphone-screen-after-battery-replacement/</guid>
+      <description>I’m a DIY person. I believe in the mantra of iFixit: “repair is noble”. Even though my iPhone 6 was under warranty, I never thought of taking it to Apple to get it’s battery replaced free of charge when the battery started dying when it reached somewhere in between 30-20%. Bad battery. 😝
+Maybe it was the long waiting lines of the Genius Bar or my passion for fixing stuff going on in my subconscious that lead me not to go to Apple.</description>
+    </item>
+    
+    <item>
+      <title>My Adventures Opening up my iMac</title>
+      <link>http://cansurmeli.com/posts/1-my-adventures-opening-up-my-imac/</link>
+      <pubDate>Wed, 11 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://cansurmeli.com/posts/1-my-adventures-opening-up-my-imac/</guid>
+      <description>A while ago, I performed a brain surgery on my iMac. I removed the optical disc drive, put a SSD in place and combined the SSD with the already installed HDD in order to create a fusion drive in order to achieve a much much better performance while increasing my storage.
+Before I leave you out with my words, I think you should have a look at the time-lapse video of the procedure.</description>
+    </item>
+    
+  </channel>
+</rss>

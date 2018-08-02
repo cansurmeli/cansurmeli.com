@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>A Developer Freeing Up Space on macOS</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: blue;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="http://cansurmeli.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.45.1" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75422354-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-75422354-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">A Developer Freeing Up Space on macOS</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about">About</a></li>
+                            
+                                <li><a href="/posts/">Posts</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:c_surmeli@icloud.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/cansurmeli/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/cansurmeli/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/1169053/can-s%c3%bcrmeli"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.500px.com/c_surmeli"><i class="fa fa-500px"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/posts/7-a-developer-freeing-up-space-on-macos/">A Developer Freeing Up Space on macOS</a></h4>
+    <h5>July 4, 2018</h5>
+    
+    <a href="http://cansurmeli.com/tags/macos"><kbd class="item-tag">macOS</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<p>Even though there are various articles on the web regarding how to free up space on your Mac; those articles are usually for end-users with basic instructions such as delete watched iTunes content, clear out your Trash and etc.</p>
+
+<p>As developers, we have different needs and usage patterns. Therefore if a developer wants to free up space on macOS, he/she needs to look elsewhere.</p>
+
+<h1 id="clear-out-3rd-party-stuff">Clear Out 3rd Party Stuff</h1>
+
+<p>You&rsquo;re probably using a dependency manager such as Carthage. Or making use of Homebrew to sort out your shell needs. If so, you definitely need to check out their garbage!</p>
+
+<h2 id="clear-out-carthage-s-cache">Clear Out Carthage&rsquo;s Cache</h2>
+
+<pre><code>    $ rm -rf ~/Library/Caches/org.carthage.CarthageKit/
+</code></pre>
+
+<h2 id="clear-out-cocoapods-cache">Clear Out Cocoapods&rsquo; Cache</h2>
+
+<pre><code>    rm -rf &quot;${HOME}/Library/Caches/CocoaPods&quot;
+</code></pre>
+
+<h2 id="clear-out-old-brews">Clear Out Old Brews</h2>
+
+<pre><code>    $ brew cleanup
+</code></pre>
+
+<h1 id="vmware-fusion-junk">VMware Fusion Junk</h1>
+
+<p>As far as I can remember, I&rsquo;ve been using VMware Fusion for my virtualization needs on macOS. There was one or two occasions where I tasted other solutions but I always ended up with VMware.</p>
+
+<p>Anyways, if you&rsquo;re like me and using VMware Fusion, you need to watch it out! The thing is that if you&rsquo;ve dynamic allocation set for your VMs&rsquo; disk spaces(which, most probably, you do), VMware does indeed increase the disk spaces by dynamically allocating the space as the naming suggests BUT it does <strong>NOT</strong> dynamically shrink them. Key point!</p>
+
+<p>Therefore, even if you see space freeing up inside your VMs when you delete stuff on the guest operating system, the VM file size on macOS side won&rsquo;t shrink!</p>
+
+<p>On that note, for your Windows machines, you need to:</p>
+
+<ul>
+<li>power-off your VM,</li>
+<li>go to it&rsquo;s VMware settings,</li>
+<li>click on <code>General</code>,</li>
+<li>click on <code>Clean Up Virtual Machine</code>.</li>
+</ul>
+
+<p>Unfortunately, the comfort of a single button click is not available for Linux distributions. For them, you need to perform some shell magic which I won&rsquo;t touch here since it&rsquo;s a bit more length process. Maybe later I&rsquo;ll write about it.</p>
+
+<h2 id="managing-vm-your-storage">Managing VM Your Storage</h2>
+
+<p>This isn&rsquo;t exactly related to freeing up your storage but I&rsquo;d really like to point it out. As a best practice, I would advise you to store your VMs not on your Mac&rsquo;s disk but on an external one with at <strong>least USB 3.0 connectivity</strong>. You can even dedicate USB dongles for your most used VMs. Which is highly convenient!</p>
+
+<p>This used to be impossible as peripheral speeds were not enough previously but starting with USB 3.0, read/write speeds <strong>can be</strong> decent enough. I&rsquo;m saying <code>can be</code> here because keep in mind that, if you&rsquo;re going on with the USB dongle option; be aware that as the dongle shrinks the read/write speeds lower as well! For running a VM over USB 3.0 connection, you need the full potential of USB 3.0.</p>
+
+<p>If we&rsquo;re lucky, one day we&rsquo;ll get USB-C dongles which are progressing really slowly. But once we do, that&rsquo;ll be even better!</p>
+
+<p>The reasoning behind this is that VMs can/do get messy pretty quickly. Hence you don&rsquo;t need to store them on your main drive all the time.</p>
+
+<p>Besides, via this approach, you can easily share them among your coworkers and if you&rsquo;re backing up your system(you&rsquo;re, right? 😉), they won&rsquo;t be taking up space(which VMs do take a lot).</p>
+
+<h1 id="handle-xcode">Handle Xcode</h1>
+
+<p>Chances are you&rsquo;re most likely a developer on one of Apple&rsquo;s platforms. If that&rsquo;s the case, whether you&rsquo;ve a love or hate relationship with Xcode, from time to time, you need to maintain it; clean it up.</p>
+
+<p>Here is a preview of things to come:
+<img src="/images/7-A-Developer-Freeing-Up-Space-on-macOS/xcode-junk.png" alt="Xcode's Junk" /></p>
+
+<h2 id="delete-unnecessary-xcode-simulators">Delete Unnecessary Xcode Simulators</h2>
+
+<pre><code>    $ xcrun simctl delete unavailable
+</code></pre>
+
+<h2 id="xcode-archives">Xcode | Archives</h2>
+
+<p>Xcode also stores some stuff named archives for some of your projects which are bigger than IPAs because they contain additional data like debug information.</p>
+
+<ul>
+<li>go to <code>~/Library/Developer/Xcode/Archives</code></li>
+<li>and delete the ones you don&rsquo;t require.</li>
+</ul>
+
+<h2 id="xcode-deriveddata">Xcode | DerivedData</h2>
+
+<p>Xcode generates build specific files for each and every project of yours. If you delete those, afterwards, your initial compilation for those projects will be a bit more time consuming. And you might be pulling out your hair when compiling  Swift(which saw dramatic compile time increases in these recent times) <strong>but</strong> as a developer you&rsquo;ve probably opened a lot of projects. Some of which you don&rsquo;t need any more. So at least delete these projects&rsquo; derived data to gain some space:</p>
+
+<ul>
+<li>go to <code>~/Library/Developer/Xcode/DerivedData/</code>,</li>
+<li>delete as to your liking.</li>
+</ul>
+
+<h2 id="xcode-logs">Xcode | Logs</h2>
+
+<p>You might have some unnecessary logs lying around. You won&rsquo;t be gaining a lot of space but worth a look:</p>
+
+<ul>
+<li>go to <code>~/Library/Developer/Xcode/iOS Device Logs/</code>,</li>
+<li>delete as to your liking.</li>
+</ul>
+
+<h2 id="xcode-old-device-information">Xcode | Old Device Information</h2>
+
+<p>Remember the times when you connect a device and Xcode generates some stuff(that takes forever) to be able to deploy your applications on device? Yeah, Xcode does that a lot and unfortunately, stores all of them. Even the ones generated for older versions of iOS; which you definitely won&rsquo;t be needing anymore.</p>
+
+<p>Therefore:</p>
+
+<ul>
+<li>Go to <code>~/Library/Developer/Xcode/iOS DeviceSupport/</code>,</li>
+<li>And delete the ones belonging to old versions of iOS.</li>
+</ul>
+
+<p>Capping at about 400MB per folder for some, may be it&rsquo;ll be just a couple of gigs getting cleaned up but better than none at the least.</p>
+
+<h1 id="daisy-disk">Daisy Disk</h1>
+
+<p>As a person, you might have unnecessary files lying somewhere on your disk. Trust me, it&rsquo;s impossible or really frustrating to hunt them down by browsing via Finder.</p>
+
+<p>For this purpose, I suggest <a href="http://daisydiskapp.com">DaisyDisk</a>. I&rsquo;ve used it many times with great pleasure. There&rsquo;s nothing new here. It&rsquo;s a basic disk usage visualization app but with great macOS support.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "c_surmeli@icloud.com" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
