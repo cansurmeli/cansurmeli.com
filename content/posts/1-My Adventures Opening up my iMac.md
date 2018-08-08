@@ -1,5 +1,6 @@
 ---
 title: "My Adventures Opening up my iMac"
+slug: "my-adventures-opening-up-my-imac"
 date: 2015-02-11
 tags: ["mac", "hardware"]
 draft: false

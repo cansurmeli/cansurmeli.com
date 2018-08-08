@@ -1,5 +1,6 @@
 ---
 title: "Extracting Data from an iOS Backup"
+slug: "extracting-data-from-an-ios-backup"
 date: 2015-08-25
 tags: ["ios"]
 draft: false

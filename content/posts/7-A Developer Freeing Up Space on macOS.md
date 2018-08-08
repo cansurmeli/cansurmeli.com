@@ -1,5 +1,6 @@
 ---
 title: "A Developer Freeing Up Space on macOS"
+slug: "a-developer-freeing-up-space-on-macos"
 date: 2018-07-04
 tags: ["macOS"]
 draft: false

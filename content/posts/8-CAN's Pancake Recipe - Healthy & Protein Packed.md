@@ -1,5 +1,6 @@
 ---
 title: "CAN's Pancake Recipe: Healthy & Protein Packed"
+slug: "cans-pancake-recipe-healthy-protein-packed"
 date: 2018-07-13
 tags: ["food", "health"]
 draft: false

@@ -1,7 +1,8 @@
 ---
 title: "How Apple Could’ve Continued AirPort"
-date: 2018-07-26
-tags: ["Apple", "networking"]
+slug: "how-apple-couldve-continued-airport"
+date: [TODO]
+tags: ["Apple", "hardware", "networking"]
 draft: true
 ---
 Couple of years back, I really enjoyed it when I read that Apple is working on a new breed of AirPort devices with a lot more functionality to ease our lives. Therefore I was shocked to read later on that they ceased their AirPort development efforts.

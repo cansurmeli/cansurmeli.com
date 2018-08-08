@@ -1,5 +1,6 @@
 ---
 title: "Enabling Hidden Xcode Simulator Features"
+slug: "enabling-hidden-xcode-simulator-features"
 date: 2017-11-16
 tags: ["xcode"]
 draft: false

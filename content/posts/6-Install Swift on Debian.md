@@ -1,5 +1,6 @@
 ---
 title: "Install Swift on Debian"
+slug: "install-swift-on-debian"
 date: 2018-07-02
 tags: ["swift", "linux"]
 draft: false

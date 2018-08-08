@@ -1,5 +1,6 @@
 ---
 title: "CAT Cable Guide for Humans"
+slug: "cat-cable-guide-for-humans"
 date: 2016-11-30
 tags: ["tech", "IT"]
 draft: false

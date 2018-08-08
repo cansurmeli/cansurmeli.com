@@ -1,5 +1,6 @@
 ---
 title: "Tips for iPhone Repair"
+slug: "tips-for-iphone-repair"
 date: 2018-07-26
 tags: ["iPhone", "hardware"]
 draft: false
