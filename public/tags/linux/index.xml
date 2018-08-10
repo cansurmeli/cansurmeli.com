@@ -13,10 +13,10 @@
     
     <item>
       <title>Install Swift on Debian</title>
-      <link>http://cansurmeli.com/posts/6-install-swift-on-debian/</link>
+      <link>http://cansurmeli.com/posts/install-swift-on-debian/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://cansurmeli.com/posts/6-install-swift-on-debian/</guid>
+      <guid>http://cansurmeli.com/posts/install-swift-on-debian/</guid>
       <description>Recently, I had to use Swift on Debian for a small project of mine.
 There are various installation procedures on the web for installing Swift on Linux but they&amp;rsquo;re mostly for Ubuntu. Since things change with every Linux distribution, I want to share what I did.
 The following procedure will cover installing Swift 4.1.2 on Debian Jessie.

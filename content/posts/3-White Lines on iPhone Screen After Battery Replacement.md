@@ -13,7 +13,7 @@ Maybe it was the long waiting lines of the Genius Bar or my passion for fixing s
 # First Try
 The first battery had heating issues which for the first time ever since the first generation iPhone, I faced with the following screen:
 
-![iPhone Heat Warning Message](/images/3-White-Lines-on-iPhone-Screen-After-Battery-Replacement/iPhone-6-Temprature-Warning.JPG)
+![iPhone Heat Warning Message](/images/3-White-Lines-on-iPhone-Screen-After-Battery-Replacement/iPhone-6-Temprature-Warning.jpg)
 
 The second battery, the current one I’m using, loses charge briskly, like it loses 30% of it’s charge when I listen to some tunes while I unplug it at 100%; but none at the least, on the bright side it stands firm all the way down until it dies.
 

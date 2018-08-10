@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CAN&#39;s Pancake Recipe: Healthy &amp; Protein Packed</title>
+        <title>Install Swift on Debian</title>
         
         <style>
 
@@ -90,7 +90,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">CAN&#39;s Pancake Recipe: Healthy &amp; Protein Packed</a>
+                    <a class="navbar-brand visible-xs" href="#">Install Swift on Debian</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -148,58 +148,71 @@
     
     
 
-    <h4><a href="/posts/8-cans-pancake-recipe---healthy--protein-packed/">CAN&#39;s Pancake Recipe: Healthy &amp; Protein Packed</a></h4>
-    <h5>July 13, 2018</h5>
+    <h4><a href="/posts/install-swift-on-debian/">Install Swift on Debian</a></h4>
+    <h5>July 2, 2018</h5>
     
-    <a href="http://cansurmeli.com/tags/food"><kbd class="item-tag">food</kbd></a>
+    <a href="http://cansurmeli.com/tags/swift"><kbd class="item-tag">swift</kbd></a>
     
-    <a href="http://cansurmeli.com/tags/health"><kbd class="item-tag">health</kbd></a>
+    <a href="http://cansurmeli.com/tags/linux"><kbd class="item-tag">linux</kbd></a>
     
 
 </div>
 
 
-    <br> <div class="text-justify">
+    <br> <div class="text-justify"><p>Recently, I had to use Swift on Debian for a small project of mine.</p>
 
-<p>I most definitely enjoy eating! Especially, a good breakfast. Nothing holds the place of some delicious food with some coffee in the morning.</p>
+<p>There are various installation procedures on the web for installing Swift on Linux but they&rsquo;re mostly for Ubuntu. Since things change with every Linux distribution, I want to share what I did.</p>
 
-<p>As a sportsman, I&rsquo;ve to eat healthy in order to properly fuel my body. Therefore things like a piece or two of bread with some jam on top or a croissant are out of the picture for me. Besides, I&rsquo;ve been eating healthy for a very long time and I don&rsquo;t want to taste such food anyway.</p>
-
-<p>I&rsquo;m quite fine with scrambling/boiling eggs or eating a bit of oat with a mixture of a banana and some milk but let&rsquo;s get a bit more creative, shall we!</p>
-
-<p>Below is a pancake recipe that I&rsquo;ve constructed myself. Yes, you&rsquo;ve read it right. It&rsquo;s a pancake recipe but without any junk in it; yet super delicious.</p>
-
-<h1 id="recipe">Recipe</h1>
+<p>The following procedure will cover installing Swift 4.1.2 on Debian Jessie.</p>
 
 <ol>
-<li>preheat your oven to 200 degrees Celcius</li>
-<li>in order to keep things tidy, put the below ingredients into the mixer in the following order:
+<li><p>Make sure your Debian system is up-to-date,</p>
 
-<ul>
-<li>the whole of a medium to large sized banana(two if small sized),</li>
-<li>three large eggs(actually it depends on your egg/fitness dedication so increase/decrease as you wish),</li>
-<li>a bit of cinnamon to give it some taste and level your blood sugar,</li>
-<li>30 ml maple syrup or honey or healthy/natural something else in place to give it the sweet taste,</li>
-<li>a cup of oat,</li>
-<li>two or three cups of milk(depends on how much you want to eat),</li>
-</ul></li>
-<li>mix it for 40 seconds,</li>
-<li>put it into your oven for 25 minutes.</li>
+<pre><code>$ sudo apt-get update &amp;&amp; sudo apt-get upgrade
+</code></pre></li>
+
+<li><p>Install the dependencies required by Swift</p>
+
+<pre><code>$ sudo apt-get install clang libicu-dev
+</code></pre></li>
+
+<li><p>Check that you&rsquo;ve <code>alien</code> installed. We&rsquo;ll need it later on,</p>
+
+<pre><code>$ sudo apt-get install alien
+</code></pre></li>
+
+<li><p>Download Swift with whatever you want. I prefer <code>wget</code>. Since we&rsquo;re on Debian Jessie, you should opt for the Ubuntu 14.04 download of Swift 4.1.2 since Ubuntu 14.04 supports Debian Jessie.</p>
+
+<pre><code>$ wget https://swift.org/builds/swift-4.1.2-release/ubuntu1404/swift-4.1.2-RELEASE/swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+</code></pre></li>
+
+<li><p>Uncompress the tarball</p>
+
+<pre><code>$ tar -xvzf swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+</code></pre></li>
+
+<li><p>Enter into the uncompressed directory</p>
+
+<pre><code>$ cd swift-4.1.2-RELEASE-ubuntu14.04
+</code></pre></li>
+
+<li><p>Compress the <code>usr</code> directory into a <code>tar.gz</code></p>
+
+<pre><code>$ tar -cvzf swift-4.1.2.tar.gz usr
+</code></pre></li>
+
+<li><p>Use <code>alien</code> to generate a <code>.deb</code> package,</p>
+
+<pre><code>$ sudo alien -v swift-4.1.2.tar.gz
+</code></pre></li>
+
+<li><p>Install your newly created <code>.deb</code> package</p>
+
+<pre><code>$ sudo dpkg -i swift_4.1.2_all.deb
+</code></pre></li>
 </ol>
 
-<p><strong>remark:</strong> Since I don&rsquo;t prefer to use any supplements, it doesn&rsquo;t have anything of sort in it. It&rsquo;s up to you if you want to add some whey protein in it but I prefer one without it. Besides, there is still a lot of protein in it anyway.</p>
-
-<h1 id="take-it-on-the-go">Take It On the Go</h1>
-
-<p>The great thing about this recipe is that you can take it along with you once it&rsquo;s cooled down. Either as a snack to fill in for that later hunger strike or as a full blown meal when you&rsquo;re short on time.</p>
-
-<p><strong>tip:</strong> If you&rsquo;re short on time in the morning, just cook it in the night, have it cool down and let it be ready in the morning. It&rsquo;s way tastier if it&rsquo;s fresh out of the oven, but better than none at the least.</p>
-
-<h1 id="drink-it-as-a-shake">Drink It As a Shake</h1>
-
-<p>If you want to change the delivery of this most delicious food, you can also have it as shake.</p>
-
-<p>Just remove the eggs from the above recipe because, you know, eggs are a bit problematic when they&rsquo;re not cooked, and drink it as a shake; when you&rsquo;re having your breakfast or post-workout.</p>
+<p>That&rsquo;s it. Now you can enter into Swift by typing <code>swift</code> into your shell prompt or compile your Swift files with <code>swiftc</code>.</p>
 </div>
 
     

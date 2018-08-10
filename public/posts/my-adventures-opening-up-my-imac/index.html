@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Extracting Data from an iOS Backup</title>
+        <title>My Adventures Opening up my iMac</title>
         
         <style>
 
@@ -90,7 +90,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Extracting Data from an iOS Backup</a>
+                    <a class="navbar-brand visible-xs" href="#">My Adventures Opening up my iMac</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -148,37 +148,76 @@
     
     
 
-    <h4><a href="/posts/2-extracting-data-from-an-ios-backup/">Extracting Data from an iOS Backup</a></h4>
-    <h5>August 25, 2015</h5>
+    <h4><a href="/posts/my-adventures-opening-up-my-imac/">My Adventures Opening up my iMac</a></h4>
+    <h5>February 11, 2015</h5>
     
-    <a href="http://cansurmeli.com/tags/ios"><kbd class="item-tag">ios</kbd></a>
+    <a href="http://cansurmeli.com/tags/mac"><kbd class="item-tag">mac</kbd></a>
+    
+    <a href="http://cansurmeli.com/tags/hardware"><kbd class="item-tag">hardware</kbd></a>
     
 
 </div>
 
 
-    <br> <div class="text-justify"><p>My little cousin(about 10 years old) broke her iPad in terms of software; don’t ask me the specifics, she somehow managed it which totally baffles me. Anyways, it was requesting an iTunes connection and had be restored. Given her age, she didn’t properly managed her iPad; meaning her photos were not stored on the cloud or even she didn’t had an up-to-date backup.</p>
+    <br> <div class="text-justify">
 
-<p>She really wanted her photos back and fortunately I found an old backup residing on her family Mac. But since that was an old backup, I didn’t wanted to restore from that. I just wanted to extract the photos inside that backup.</p>
+<p>A while ago, I performed a brain surgery on my iMac. I removed the optical disc drive, put a SSD in place and combined the SSD with the already installed HDD in order to create a fusion drive in order to achieve a much much better performance while increasing my storage.</p>
 
-<p>I know that Apple doesn’t allows this, they all want things to just work with a single click! But since the backup file is just a specifically managed boat of data there had to be some app to extract data from it according to my needs. I could gone inside the backup to search but why bother and lose time.</p>
+<p>Before I leave you out with my words, I think you should have a look at the time-lapse video of the procedure. It’s a delight to watch.</p>
 
-<p>A little detective work came up with the answer: iPhone / iPod Touch Backup Extractor Given the very obvious name, this little app does exactly one job that you expect. Analysis your backup and extracts data out of it on your Mac so that in order to save a couple of files, you don’t have to make a full restore.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MarkAJJpXSo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p>App Screenshot</p>
+<p>Anyways, had fun? Let’s get to the specifics.</p>
 
-<p>To do so:</p>
+<h1 id="why-bother">Why bother?</h1>
 
-<p>launch the app,
-if you have only allowed authorised apps(Mac App Store | identified developers) to be launched, then right-click to the app icon and choose Open. This will override this security measure just for this app for the time being.
-click `Read Backups’ button on the bottom left corner,
-select your backup file,
-a list will be shown detailing whatever found,
-scroll to the bottom and select iOS Files,
-click to the Extract button and choose a location,
-in the extracted folder, browse to the following location: iOS Files/Media/DCIM,
-and there are all your photos stored in your backup which you can copy them to wherever you want.
-Although this process saves your most precious photos, it loses some of their metadata which Photos uses and it’s kind of hard to restore that since there is no official way of doing that. Trying to do that manually would be a nightmare so from now on please keep your backups up-to-date with automatic iCloud back-ups and at the same time upload your entire photo library to iCloud or Dropbox or whatever cloud provider you like. And if you are a little munchkin, please do tell your parents to do so! 😄</p>
+<p>Before getting into the technical aspects, let&rsquo;s take a look at the reasons behind all this.</p>
+
+<p>My iMac is the mid 2010 model. It’s hardware in terms of processor(3.06 GHz Intel Core i3), memory(16 GB 1333 MHz DDR3) and etc. are decent even though it’s not a fresh out of the line model but it’s storage was bottlenecking the beast inside.</p>
+
+<p>So I decided to look out for a proper option for a SSD, one that would be good for me on performance, capacity &amp; price. I decided on Samsung since it’s quite available in my country and they offer good quality for the price. I opted for Samsung 850 EVO 500 GB. I could’ve got the Samsung 850 PRO 512 GB with an added 12 GB and a little bit more performance but the review I read on Anandtech convinced me that EVO should suffice for my needs. Therefore I discarded paying something like 200$/250$ for an increase that wasn’t quite necessary.</p>
+
+<p>I ordered the EVO with an SSD closure to hold it inside the iMac and started waiting for the cargo to arrive while I was looking over to the iFixit documentation and readying myself.</p>
+
+<h1 id="let-s-get-to-it">Let’s get to it</h1>
+
+<p>Finally, the stuff arrived and I made the replacement following iFixit’s most helpful guides and tools. It was a through process; iFixit helps a lot but I should mention that having some previous experience, again thanks to iFixit, is yet another cold beverage in the desert if I might add since these nasty electronic parts are sometimes a little hard to manage. Now I clearly see why China is a favourable place for electronic assemblies. Small hands! :]</p>
+
+<h1 id="making-the-fusion-drive-happen">Making the fusion drive happen</h1>
+
+<p>After the hardware installation, comes the software preparations for the new beast in the block.</p>
+
+<p>Before hand, I made a OS X 10.10(Yosemite) USB installer. First I used it to adjust the drive for the Fusion Drive. Here are the detailed steps I followed:</p>
+
+<ul>
+<li>boot from the USB installer,</li>
+<li>switch to the Terminal,</li>
+<li>type ‘diskutil list’</li>
+<li>take note of the SSD and the HDD disk IDs,
+
+<ul>
+<li>for the SSD, take the ID of the main partition,</li>
+<li>for the HDD, take the ID covering ONLY the data part. Leave out the recovery partition if you want to retain it without hassle later on.</li>
+</ul></li>
+<li>type ‘diskutil cs create [arbitrary_name] disk0 disk1s2’. This command returns an UUID, copy it for the next step,</li>
+<li>type ‘diskutil cs createVolume [UUID] jhfs+ [arbitrary_name] 100%’.</li>
+</ul>
+
+<p>This process presents the two separate disks as a whole to the system, aka a fully functional Fusion Drive in my hands.</p>
+
+<h1 id="os-x-installation-and-more">OS X installation and more</h1>
+
+<p>Now that my iMac’s fancy new brain was ready, I started the OS X installation.</p>
+
+<p>After the installation, I started out from fresh and didn’t started the transfer of my Time Machine backup. I wanted a clean slate. No particular reason here, I’d no problems with my old system but knowing this much about computers, I rightfully so found it appropriate for a fresh OS X since operating systems are complex things and they carry unnecessary weight over time even though Apple does an excellent job at maintaining the integrity of their OS. I merely manually copied my files from my Time Machine backup, the ones not on the cloud, and started installing my apps.</p>
+
+<p>Besides my Time Machine backup, most of my files started downloading from the cloud once I logged in to iCloud and Dropbox anyway. That’s another fancy gesture of these days that stuff just works, as Steve once said. :]</p>
+
+<p>One last suggestion by the way, keep your backup(s) around for a couple of days even after you’ve successfully completed the procedure. We rely heavily on our computers and you never know what you might’ve left out or go wrong.</p>
+
+<h1 id="a-few-last-words">A few last words</h1>
+
+<p>If you’re computing on a non-SSD system and you’ve some spare time with some basic hardware speciality to deal with all this mess, I strongly recommend what I did. It will truly pay off and you&rsquo;ll get great price for the cost.</p>
 </div>
 
     

@@ -10,7 +10,7 @@ A while ago, I performed a brain surgery on my iMac. I removed the optical disc 
 
 Before I leave you out with my words, I think you should have a look at the time-lapse video of the procedure. It’s a delight to watch.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MarkAJJpXSo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+{{< youtube MarkAJJpXSo >}}
 
 Anyways, had fun? Let’s get to the specifics.
 

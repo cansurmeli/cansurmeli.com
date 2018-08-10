@@ -13,10 +13,10 @@
     
     <item>
       <title>Enabling Hidden Xcode Simulator Features</title>
-      <link>http://cansurmeli.com/posts/5-enabling-hidden-xcode-simulator-features/</link>
+      <link>http://cansurmeli.com/posts/enabling-hidden-xcode-simulator-features/</link>
       <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://cansurmeli.com/posts/5-enabling-hidden-xcode-simulator-features/</guid>
+      <guid>http://cansurmeli.com/posts/enabling-hidden-xcode-simulator-features/</guid>
       <description>Apple has some nice little features for the simulator in Xcode to boost your productivity or improve your environment. However, unfortunately, even if they&amp;rsquo;re currently fully functional, they&amp;rsquo;re hidden away. And knowing Apple, they&amp;rsquo;ll most probably keep it that way.
 Although, that doesn&amp;rsquo;t mean these features were meant to stay hidden. You can enable them yourself. It used to be that only a single Terminal command of sudo mkdir /AppleInternal would enable it but as it has been commented out to me, it seems that Apple put some safe guards against this command.</description>
     </item>

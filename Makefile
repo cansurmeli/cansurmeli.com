@@ -29,6 +29,11 @@ properlyNameImage:
 		mv "$f" "$f.jpg"
 	done
 
+cleanupImages:
+	hugo --gc
+# Cleaning up unused images after image settings change(s)
+# http://gohugo.io/content-management/image-processing/
+
 # -r: recurse into directories
 # -a: archive mode
 # -v: verbose

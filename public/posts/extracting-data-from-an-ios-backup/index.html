@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>Extracting Data from an iOS Backup</title>
         
         <style>
 
@@ -90,7 +90,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#"></a>
+                    <a class="navbar-brand visible-xs" href="#">Extracting Data from an iOS Backup</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -148,38 +148,37 @@
     
     
 
-    <h4><a href="/posts/10-my-thoughts-on-the-usb-c-macbook-pro-design/"></a></h4>
-    <h5>January 1, 0001</h5>
+    <h4><a href="/posts/extracting-data-from-an-ios-backup/">Extracting Data from an iOS Backup</a></h4>
+    <h5>August 25, 2015</h5>
+    
+    <a href="http://cansurmeli.com/tags/ios"><kbd class="item-tag">ios</kbd></a>
     
 
 </div>
 
 
-    <br> <div class="text-justify">
+    <br> <div class="text-justify"><p>My little cousin(about 10 years old) broke her iPad in terms of software; don’t ask me the specifics, she somehow managed it which totally baffles me. Anyways, it was requesting an iTunes connection and had be restored. Given her age, she didn’t properly managed her iPad; meaning her photos were not stored on the cloud or even she didn’t had an up-to-date backup.</p>
 
-<h1 id="my-thoughts-on-the-usb-c-macbook-pro-design">My thoughts on the USB-C MacBook Pro design</h1>
+<p>She really wanted her photos back and fortunately I found an old backup residing on her family Mac. But since that was an old backup, I didn’t wanted to restore from that. I just wanted to extract the photos inside that backup.</p>
 
-<p>I&rsquo;m the owner of a 2017 model 15-inch MBP. There is a lot of controversy around this design and as a user of one, I&rsquo;d like to point out my experience.</p>
+<p>I know that Apple doesn’t allows this, they all want things to just work with a single click! But since the backup file is just a specifically managed boat of data there had to be some app to extract data from it according to my needs. I could gone inside the backup to search but why bother and lose time.</p>
 
-<h2 id="overall">Overall</h2>
+<p>A little detective work came up with the answer: iPhone / iPod Touch Backup Extractor Given the very obvious name, this little app does exactly one job that you expect. Analysis your backup and extracts data out of it on your Mac so that in order to save a couple of files, you don’t have to make a full restore.</p>
 
-<p>I think this design is a great on in general. It&rsquo;s sleek</p>
+<p>App Screenshot</p>
 
-<h2 id="touchbar">TouchBar</h2>
+<p>To do so:</p>
 
-<p>People are too quick to judge.</p>
-
-<h2 id="keyboard">Keyboard</h2>
-
-<p>There are two main subjects about this keyboard. First, the feel of it. And second, it&rsquo;s technical incapability.</p>
-
-<h2 id="connectivity">Connectivity</h2>
-
-<p>And on to connectivity which is a vital point for pro users.</p>
-
-<p>I&rsquo;m in the wagon of abandoning the old USB standard, USB-A. Everyone knows that technology moves forward but no one wants to drive it further. Well, if we don&rsquo;t embrace new standards, the old ones will stick with us and make our lives miserable. Yeah, it&rsquo;s a bit annoying at the moment to plug-in your USB sticks with adapters but it&rsquo;s all for a better future.</p>
-
-<p>With that being said, I can make my cases for picking on Apple as in why they&rsquo;re wrong about removing the sdcard slot and the hdmi.</p>
+<p>launch the app,
+if you have only allowed authorised apps(Mac App Store | identified developers) to be launched, then right-click to the app icon and choose Open. This will override this security measure just for this app for the time being.
+click `Read Backups’ button on the bottom left corner,
+select your backup file,
+a list will be shown detailing whatever found,
+scroll to the bottom and select iOS Files,
+click to the Extract button and choose a location,
+in the extracted folder, browse to the following location: iOS Files/Media/DCIM,
+and there are all your photos stored in your backup which you can copy them to wherever you want.
+Although this process saves your most precious photos, it loses some of their metadata which Photos uses and it’s kind of hard to restore that since there is no official way of doing that. Trying to do that manually would be a nightmare so from now on please keep your backups up-to-date with automatic iCloud back-ups and at the same time upload your entire photo library to iCloud or Dropbox or whatever cloud provider you like. And if you are a little munchkin, please do tell your parents to do so! 😄</p>
 </div>
 
     

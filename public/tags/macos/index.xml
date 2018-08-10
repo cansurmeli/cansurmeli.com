@@ -13,10 +13,10 @@
     
     <item>
       <title>A Developer Freeing Up Space on macOS</title>
-      <link>http://cansurmeli.com/posts/7-a-developer-freeing-up-space-on-macos/</link>
+      <link>http://cansurmeli.com/posts/a-developer-freeing-up-space-on-macos/</link>
       <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://cansurmeli.com/posts/7-a-developer-freeing-up-space-on-macos/</guid>
+      <guid>http://cansurmeli.com/posts/a-developer-freeing-up-space-on-macos/</guid>
       <description>Even though there are various articles on the web regarding how to free up space on your Mac; those articles are usually for end-users with basic instructions such as delete watched iTunes content, clear out your Trash and etc.
 As developers, we have different needs and usage patterns. Therefore if a developer wants to free up space on macOS, he/she needs to look elsewhere.
 Clear Out 3rd Party Stuff You&amp;rsquo;re probably using a dependency manager such as Carthage.</description>
