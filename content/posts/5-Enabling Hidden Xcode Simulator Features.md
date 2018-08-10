@@ -4,6 +4,7 @@ slug: "enabling-hidden-xcode-simulator-features"
 date: 2017-11-16
 tags: ["xcode"]
 draft: false
+image_dir: "/images/5-Enabling-Hidden-Xcode-Simulator-Features/"
 ---
 
 Apple has some nice little features for the simulator in Xcode to boost your productivity or improve your environment. However, unfortunately, even if they're currently fully functional, they're hidden away. And knowing Apple, they'll most probably keep it that way.
@@ -26,18 +27,18 @@ Now you can get out of the `Recovery Mode` and boot your Mac as usual.
 
 As you can see, you merely created a folder in your root directory but what this enables is that now when you launch Xcode, it will be displaying it's build number on top of it's Dock icon. It's a nifty feature when you immediately need to find out if the build number matches with the one on the developer portal; especially at times of post WWDC where betas keep popping out. Saves you the trip of going to the `About Xcode` menu item or showing the launch screen.
 
-![Xcode Dock Icon After AppleInternal](/images/5-Enabling-Hidden-Xcode-Simulator-Features/XcodeDockIconAfterAppleInternal.png)
+{{< img src="XcodeDockIconAfterAppleInternal.png" title="Xcode Dock Icon After AppleInternal" >}}
 
 But it's a somewhat boring feature compared to the rest. If you launch the simulator from now on, you'll see a new bar menu item named `Internal`. If you click it, you'll see that it gives your various options, for instance showing single touches, changing the chrome colour or etc.
 
-![Simulator's Internal Menu Enabled](/images/5-Enabling-Hidden-Xcode-Simulator-Features/SimulatorInternalMenuEnabled.jpg)
+{{< img src="SimulatorInternalMenuEnabled.jpg" title="Simulator's Internal Menu Enabled" >}}
 
 Wait, what, we can put the simulator and Xcode side-by-side in full screen mode. 😱😱😱
 
-![Simulator's Internal Menu Full Screen Mode Option](/images/5-Enabling-Hidden-Xcode-Simulator-Features/SimulatorInternalMenuFullScreenMode.jpg)
+{{< img src="SimulatorInternalMenuFullScreenMode.jpg" title="Simulator's Internal Menu Full Screen Mode Option" >}}
 
 Go ahead and check that option. From now on, you can fulfil your dream of putting Xcode and the simulator side-by-side.
 
-![Xcode and the Simulator in Full Screen](/images/5-Enabling-Hidden-Xcode-Simulator-Features/XcodeSimulatorFullScreen.jpg)
+{{< img src="XcodeSimulatorFullScreen.jpg" title="Xcode and the Simulator in Full Screen" >}}
 
 Happy coding! 😉

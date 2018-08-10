@@ -4,6 +4,7 @@ slug: "tips-for-iphone-repair"
 date: 2018-07-26
 tags: ["iPhone", "hardware"]
 draft: false
+image_dir: "/images/9-Tips-for-iPhone-Repair/"
 ---
 For some time, I've been fixing my and my circle's iPhones in terms of hardware difficulties: battery change, screen replacement, etc.
 
@@ -57,7 +58,7 @@ This one is specifically for battery replacement. iPhones are really tiny device
 
 When you are replacing your battery for a brand new one, if you use glue to hold it in place, you might/will end with the following scenario I ended up as below.
 
-![iPhone Battery Replacement Fail with Glue](/images/9-Tips-for-iPhone-Repair/iphone-battery-replacement-with-glue.jpg)
+{{< img src="iphone-battery-replacement-with-glue.jpg" title="iPhone Battery Replacement Fail with Glue" >}}
 
 The glue does not distribute itself evenly and when it dries, it's thicker than the battery strip you should be using. Therefore, in a case like this, you'll end up with a screen that's a little high on the left side which will definitely irritate you.
 
@@ -79,13 +80,13 @@ Therefore,
 # iSlack
 This is a magnificent tool even if you're going to open up your iPhone just for once.
 
-![iSlack](/images/9-Tips-for-iPhone-Repair/iSlack.jpg)
+{{< img src="iSlack.jpg" title="iSlack" >}}
 
 [iSlack](https://eustore.ifixit.com/en/Tools/Prying-Opening/iSclack.html) is a plier for opening up your iPhone and with just one move it opens it up to the point that's just right so that you don't have to worry about breaking the flex cables inside.
 
 Otherwise, you would be spending way too much effort with the method pictured below and you would have to be far more careful when doing so.
 
-![Manually Opening an iPhone](/images/9-Tips-for-iPhone-Repair/iPhone-manuel-open.jpg)
+{{< img src="iPhone-manuel-open.jpg" title="Manually Opening an iPhone" >}}
 
 iSlack can be a bit pricy for a single repair, yet again it still makes sense to buy one because it'll save you a whole lot of time and some sanity. However if you'll be continually doing repairs, it's a MUST.
 

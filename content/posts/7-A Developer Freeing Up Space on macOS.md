@@ -4,6 +4,7 @@ slug: "a-developer-freeing-up-space-on-macos"
 date: 2018-07-04
 tags: ["macOS"]
 draft: false
+image_dir: "/images/7-A-Developer-Freeing-Up-Space-on-macOS/"
 ---
 
 Even though there are various articles on the web regarding how to free up space on your Mac; those articles are usually for end-users with basic instructions such as delete watched iTunes content, clear out your Trash and etc.
@@ -53,7 +54,7 @@ Besides, via this approach, you can easily share them among your coworkers and i
 Chances are you're most likely a developer on one of Apple's platforms. If that's the case, whether you've a love or hate relationship with Xcode, from time to time, you need to maintain it; clean it up.
 
 Here is a preview of things to come:
-![Xcode's Junk](/images/7-A-Developer-Freeing-Up-Space-on-macOS/xcode-junk.png)
+{{< img src="xcode-junk.png" title="Xcode's Junk" >}}
 
 ## Delete Unnecessary Xcode Simulators
 		$ xcrun simctl delete unavailable
@@ -89,4 +90,4 @@ Capping at about 400MB per folder for some, may be it'll be just a couple of gig
 # Daisy Disk
 As a person, you might have unnecessary files lying somewhere on your disk. Trust me, it's impossible or really frustrating to hunt them down by browsing via Finder.
 
-For this purpose, I suggest [DaisyDisk](http://daisydiskapp.com). I've used it many times with great pleasure. There's nothing new here. It's a basic disk usage visualization app but with great macOS support.
+For this purpose, I suggest [DaisyDisk](http://daisydiskapp.com). I've used it many times with great pleasure. There's nothing new here. It's a basic disk usage visualisation app but with great macOS support.
