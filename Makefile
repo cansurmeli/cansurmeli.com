@@ -10,6 +10,8 @@ remoteDIR = /var/www/html/cansurmeli.com/public_html/
 sync:
 	rm -rf public
 	hugo
+	git add *
+	git commit -a -m "`make sync` commit"
 	rsync ${syncFLAGS} ${currentDIR} ${sshALIAS}:${remoteDIR}
 
 #syncLR:
