@@ -39,3 +39,7 @@ Thumbs.db
 # Hugo #
 ########
 public/
+
+# Other #
+########
+*.swp
