@@ -17,6 +17,12 @@ googleAnalytics = "UA-75422354-1"
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
+[staticman]
+  endpoint = "https://api.staticman.net/v2/entry/"
+  username = "cansurmeli"
+  repository = "cansurmeli.com"
+  branch = "master"
+
 [[menu.main]]
     url = "/"
     name = "Home"
