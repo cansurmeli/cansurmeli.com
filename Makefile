@@ -10,9 +10,8 @@ remoteDIR = /var/www/html/cansurmeli.com/public_html/
 sync:
 	rm -rf public
 	hugo
-	git add *
-	git commit -m "Makefile sync commit"
 	rsync ${syncFLAGS} ${currentDIR} ${sshALIAS}:${remoteDIR}
+	rm -rf public
 
 properlyNameImage:
 	for f in *.jpeg; do

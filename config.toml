@@ -2,7 +2,6 @@ baseURL = "http://cansurmeli.com/"
 languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
-disqusShortname = "c_surmeli@icloud.com" # delete this to disable disqus comments
 googleAnalytics = "UA-75422354-1"
 
 [params]
@@ -17,11 +16,11 @@ googleAnalytics = "UA-75422354-1"
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-[staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
-  username = "cansurmeli"
-  repository = "cansurmeli.com"
-  branch = "master"
+[params.staticman]
+	endpoint = "https://api.staticman.net/v2/entry/"
+	username = "cansurmeli"
+	repository = "cansurmeli.com"
+	branch = "master"
 
 [[menu.main]]
     url = "/"

@@ -37,7 +37,7 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "Hugo + Staticman"
+  name: "CAN's"
 
   # (*) REQUIRED
   #
@@ -72,9 +72,9 @@ posts:
     tags: ["user-generated"]
   format: "frontmatter"
   moderation: true
-  name: "Hugo + Staticman"
+  name: "CAN's"
   path: "content/post"
   filename: "{fields.slug}"
-  requiredFields: ["title", "body"]
+  requiredFields: ["name", "body"]
   transforms:
     body: "frontmatterContent"
