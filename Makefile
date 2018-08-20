@@ -13,6 +13,9 @@ sync:
 	rsync ${syncFLAGS} ${currentDIR} ${sshALIAS}:${remoteDIR}
 	rm -rf public
 
+templateMetrics:
+	hugo --templateMetrics --templateMetricsHints
+
 properlyNameImage:
 	for f in *.jpeg; do
 		mv "$f" "$f.jpg"
