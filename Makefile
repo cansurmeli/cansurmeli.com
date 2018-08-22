@@ -3,9 +3,9 @@
 copyFLAGS = -ve --progress
 copyFILES = 
 syncFLAGS = -ravz --progress --delete
-sshALIAS = mt
+sshALIAS = vps
 currentDIR = /Users/can/Documents/Development/Web/cansurmeli.com/public/
-remoteDIR = /var/www/html/cansurmeli.com/public_html/
+remoteDIR = /var/www/cansurmeli.com/public_html/
 
 sync:
 	rm -rf public
