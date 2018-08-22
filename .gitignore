@@ -39,6 +39,7 @@ Thumbs.db
 # Hugo #
 ########
 public/
+themes/
 
 # Other #
 ########
