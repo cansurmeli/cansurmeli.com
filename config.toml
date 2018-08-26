@@ -1,4 +1,4 @@
-baseURL = "http://cansurmeli.com/"
+baseURL = "https://www.cansurmeli.com/"
 languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
