@@ -4,6 +4,7 @@ slug: "cans-pancake-recipe-healthy-protein-packed"
 date: 2018-07-13
 tags: ["food", "health"]
 draft: false
+image_dir: "/images/8-CANs-Pancake-Recipe-Healthy-Protein-Packed/"
 ---
 
 I most definitely enjoy eating! Especially, a good breakfast. Nothing holds the place of some delicious food with some coffee in the morning.
@@ -14,15 +15,19 @@ I'm quite fine with scrambling/boiling eggs or eating a bit of oat with a mixtur
 
 Below is a pancake recipe that I've constructed myself. Yes, you've read it right. It's a pancake recipe but without any junk in it; yet super delicious.
 
+# Ingredients
+- a medium to large sized banana
+- 4 eggs
+- couple of pinches of cinnamon
+- 30 ml maple syrup
+- one coffee mug of oats
+- 2/3 coffee mugs of milk
+
+{{< img src="ingredients.jpg" title="Ingredients" >}}
+
 # Recipe
 1. preheat your oven to 200 degrees Celcius
-2. in order to keep things tidy, put the below ingredients into the mixer in the following order:
-	- the whole of a medium to large sized banana(two if small sized),
-	- three large eggs(actually it depends on your egg/fitness dedication so increase/decrease as you wish),
-	- a bit of cinnamon to give it some taste and level your blood sugar,
-	- 30 ml maple syrup or honey or healthy/natural something else in place to give it the sweet taste,
-	- a cup of oat,
-	- two or three cups of milk(depends on how much you want to eat),
+2. throw in the ingredients(in order to keep things tidy, put the ingredients into the mixer in the above given order),
 3. mix it for 40 seconds,
 4. put it into your oven for 25 minutes.
 
