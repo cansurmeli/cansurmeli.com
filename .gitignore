@@ -41,5 +41,6 @@ $RECYCLE.BIN/
 # Hugo #
 ########
 /public
+/themes
 /resources/_gen
 
