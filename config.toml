@@ -2,7 +2,7 @@ baseURL = "https://www.cansurmeli.com/"
 languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
-googleAnalytics = "UA-75422354-1"
+matomoURL = "https://analytics.cansurmeli.com/"
 
 [params]
     author = "Can Sürmeli"
