@@ -2,19 +2,21 @@ baseURL = "https://www.cansurmeli.com/"
 languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
-matomoURL = "https://analytics.cansurmeli.com/"
 
 [params]
-    author = "Can Sürmeli"
-    description = "an eager to learn developer who hacks things and cares deeply about UI/UX; and also a sportsman"
-    githubUsername = "cansurmeli"
-    accent = "#33658A"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+	author = "Can Sürmeli"
+	description = "an eager to learn developer who hacks things and cares deeply about UI/UX; and also a sportsman"
+	githubUsername = "cansurmeli"
+	accent = "#33658A"
+	showBorder = true
+	backgroundColor = "white"
+	font = "Raleway" # should match the name on Google Fonts!
+	highlight = true
+	highlightStyle = "solarized-dark"
+	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[params.matomo]
+	url = "https://analytics.cansurmeli.com/"
 
 [params.staticman]
 	endpoint = "https://api.staticman.net/v2/entry/"
@@ -23,51 +25,51 @@ matomoURL = "https://analytics.cansurmeli.com/"
 	branch = "master"
 
 [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+	url = "/"
+	name = "Home"
+	weight = 1
 
 [[menu.main]]
-    url = "/about"
-    name = "About"
-		weight = 2
+	url = "/about"
+	name = "About"
+	weight = 2
 
 [[menu.main]]
-    url = "/posts/"
-    name = "Posts"
-    weight = 3
+	url = "/posts/"
+	name = "Posts"
+	weight = 3
 
 #[[menu.main]]
-    #url = "/projects/"
-    #name = "Projects"
-    #weight = 4
+	#url = "/projects/"
+	#name = "Projects"
+	#weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:c_surmeli@icloud.com"
-    name = "envelope-o"
-    weight = 1
+	url = "mailto:c_surmeli@icloud.com"
+	name = "envelope-o"
+	weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/cansurmeli/"
-    name = "github"
-    weight = 2
+	url = "https://github.com/cansurmeli/"
+	name = "github"
+	weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/cansurmeli/"
-    name = "twitter"
-    weight = 3
+	url = "https://twitter.com/cansurmeli/"
+	name = "twitter"
+	weight = 3
 
 [[menu.icon]]
-		url = "https://stackoverflow.com/users/1169053/can-sürmeli"
-    name = "stack-overflow"
-    weight = 4
+	url = "https://stackoverflow.com/users/1169053/can-sürmeli"
+	name = "stack-overflow"
+	weight = 4
 
 [[menu.icon]]
-		url = "https://www.500px.com/c_surmeli"
-    name = "500px"
-    weight = 5
+	url = "https://www.500px.com/c_surmeli"
+	name = "500px"
+	weight = 5
 
