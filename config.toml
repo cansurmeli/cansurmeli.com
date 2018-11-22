@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "CAN"
 theme = "minimal"
 
+pygmentsStyle = "native"
+pygmentsOptions = "linenos=table"
+
 [params]
 	author = "Can Sürmeli"
 	description = "an eager to learn developer who hacks things and cares deeply about UI/UX; and also a sportsman"
