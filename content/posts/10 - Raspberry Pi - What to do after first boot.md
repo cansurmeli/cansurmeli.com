@@ -34,14 +34,18 @@ Before you go any further, update your Pi to keep it at it’s best.
 
 Even if you’ve just downloaded Raspbian, it will have some outdated packages lying inside.
 
-	$ sudo apt-get update && sudo apt-get upgrade && sudo apt-get clean
+{{< highlight bash >}}
+apt-get update && sudo apt-get upgrade && sudo apt-get clean
+{{< / highlight >}}
 
 ## [optional] Install vim
 This isn’t mandatory but merely a suggestion.
 
 Raspbian doesn’t come with `vim` pre-installed which is the editor I prefer.
 
-	$ sudo apt-get install vim
+{{< highlight bash >}}
+apt-get install vim
+{{< / highlight >}}
 
 Also, from this point on, I will be explaining file edits via Vim. If you choose not do so, go with your preferred text editor.
 
@@ -50,11 +54,15 @@ I can’t think of a mandatory technical reason for this one but in order to kee
 
 To create a new user, simply execute the following command:
 
-	$ sudo adduser [USERNAME]
+{{< highlight bash >}}
+adduser [USERNAME]
+{{< / highlight >}}
 
 If you would like to give that newly created user `sudo` privileges, follow the steps below. However, you’ll be editing a system file with the system's default text editor, which is currently set to `nano`. If you prefer `vim` like I do, execute the following command beforehand:
 
-	$ sudo update-alternatives --set editor /usr/bin/vim.tiny
+{{< highlight bash >}}
+update-alternatives --set editor /usr/bin/vim.tiny
+{{< / highlight >}}
 
 On to giving `sudo` privileges to your newly created user:
 
@@ -80,45 +88,57 @@ It's more secure and convenient to login with public-key authentication.
 
 First make sure that you're logged in as your newly created user. Afterwards:
 
-    $ cd ~
-    $ mkdir .ssh
-    $ chmod 700 .ssh
-    $ touch .ssh/authorized_keys
-    $ chmod 600 .ssh/authorized_keys
+{{< highlight bash >}}
+cd ~
+mkdir .ssh
+chmod 700 .ssh
+touch .ssh/authorized_keys
+chmod 600 .ssh/authorized_keys
+{{< / highlight >}}
 
 Then on your local machine:
 
-    $ cd ~/.ssh
-    $ ssh-keygen -t rsa -b 4096
+{{< highlight bash >}}
+cd ~/.ssh
+ssh-keygen -t rsa -b 4096
+{{< / highlight >}}
 
 Follow the on-screen instructions.
 
 Once done, copy the contents of the newly created key's public part and paste it into the `authorized_keys` file on your Pi. For example, on macOS, to copy the contents:
 
-    $ cat [KEY_NAME].pub | pbcopy
+{{< highlight bash >}}
+cat [KEY_NAME].pub | pbcopy
+{{< / highlight >}}
 
 ## [optional] Adjust your SSH defaults
 Let's do some basic adjustments to how `sshd` functions. This will be a quick recap and if you want more detail on what relates to what, do search the web or checkout the resources down below.
 
 First, open the file that holds the configuration for `sshd`:
 
-    $ sudo vim /etc/ssh/sshd_config
+{{< highlight bash >}}
+vim /etc/ssh/sshd_config
+{{< / highlight >}}
 
 Afterwards, change the following parameters in the file as suggested below:
 
-		- AuthenticationMethods publickey
-		- PubkeyAuthentication yes
-		- PermitEmptyPasswords no
-		- Port [YOUR_DESIRED_PORT NUMBER]
-		- ClientAliveInterval 300
-		- ClientAliveCountMax 0
-		- Banner /etc/issue
-		- IgnoreRhosts yes
-		- HostbasedAuthentication no
-    
+{{< highlight bash >}}
+- AuthenticationMethods publickey
+- PubkeyAuthentication yes
+- PermitEmptyPasswords no
+- Port [YOUR_DESIRED_PORT NUMBER]
+- ClientAliveInterval 300
+- ClientAliveCountMax 0
+- Banner /etc/issue
+- IgnoreRhosts yes
+- HostbasedAuthentication no
+{{< / highlight >}}
+
 Once you're done, have `sshd` acknowledge the changes by restarting it:
 
-    $ sudo service ssh restart
+{{< highlight bash >}}
+service ssh restart
+{{< / highlight >}}
 
 **Remark**
 
@@ -133,8 +153,10 @@ Bash is a great shell, because of some of zsh's advantages, I prefer to work wit
 
 Hence, to install it and make it your default:
 
-    $ apt-get install zsh
-    $ chsh -s $(which zsh)
+{{< highlight bash >}}
+apt-get install zsh
+chsh -s $(which zsh)
+{{< / highlight >}}
 
 ## [optional] Change it's hostname
 If you (will)have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
@@ -147,13 +169,17 @@ For the hostname, you can only use:
 
 There are two files managing the hostname of your Pi. For the first one:
 
-    $ sudo vim /etc/hostname
+{{< highlight bash >}}
+vim /etc/hostname
+{{< / highlight >}}
 
 It should only contain a name, so change it to whatever you like.
 
 For the second file(which is only there for some software):
 
-    $ sudo vim /etc/hosts
+{{< highlight bash >}}
+vim /etc/hosts
+{{< / highlight >}}
 
 Find the line starting with `127.0.0.1` and change the hostname to your preferred one.
 

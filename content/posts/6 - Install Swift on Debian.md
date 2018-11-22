@@ -15,39 +15,56 @@ The following procedure will cover installing Swift 4.1.2 on Debian Jessie.
 
 1. Make sure your Debian system is up-to-date,
 
-		$ sudo apt-get update && sudo apt-get upgrade
+{{< highlight bash >}}
+apt-get update && sudo apt-get upgrade
+{{< / highlight >}}
 
 2. Install the dependencies required by Swift
 
-		$ sudo apt-get install clang libicu-dev
+{{< highlight bash >}}
+apt-get install clang libicu-dev
+{{< / highlight >}}
 
 3. Check that you've `alien` installed. We'll need it later on,
-
-		$ sudo apt-get install alien
+{{< highlight bash >}}
+sudo apt-get install alien
+{{< / highlight >}}
 
 4. Download Swift with whatever you want. I prefer `wget`. Since we're on Debian Jessie, you should opt for the Ubuntu 14.04 download of Swift 4.1.2 since Ubuntu 14.04 supports Debian Jessie.
 
-		$ wget https://swift.org/builds/swift-4.1.2-release/ubuntu1404/swift-4.1.2-RELEASE/swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+{{< highlight bash >}}
+wget https://swift.org/builds/swift-4.1.2-release/ubuntu1404/swift-4.1.2-RELEASE/swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+{{< / highlight >}}
 
 5. Uncompress the tarball
 
-		$ tar -xvzf swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+{{< highlight bash >}}
+tar -xvzf swift-4.1.2-RELEASE-ubuntu14.04.tar.gz
+{{< / highlight >}}
 		
 6. Enter into the uncompressed directory
 
-		$ cd swift-4.1.2-RELEASE-ubuntu14.04
-		
+{{< highlight bash >}}
+cd swift-4.1.2-RELEASE-ubuntu14.04
+{{< / highlight >}}
+
 7. Compress the `usr` directory into a `tar.gz`
 
-		$ tar -cvzf swift-4.1.2.tar.gz usr
-		
+{{< highlight bash >}}
+tar -cvzf swift-4.1.2.tar.gz usr
+{{< / highlight >}}
+
 8. Use `alien` to generate a `.deb` package,
 
-		$ sudo alien -v swift-4.1.2.tar.gz
-		
+{{< highlight bash >}}
+alien -v swift-4.1.2.tar.gz
+{{< / highlight >}}
+
 9. Install your newly created `.deb` package
 
-		$ sudo dpkg -i swift_4.1.2_all.deb
-		
+{{< highlight bash >}}
+dpkg -i swift_4.1.2_all.deb
+{{< / highlight >}}
+
 That's it. Now you can enter into Swift by typing `swift` into your shell prompt or compile your Swift files with `swiftc`.
 		

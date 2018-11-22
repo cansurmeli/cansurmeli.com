@@ -16,16 +16,22 @@ As developers, we have different needs and usage patterns. Therefore if a develo
 You're probably using a dependency manager such as Carthage. Or making use of Homebrew to sort out your shell needs. If so, you definitely need to check out their garbage!
 
 ## Clear Out Carthage's Cache
-		$ rm -rf ~/Library/Caches/org.carthage.CarthageKit/
-		
-## Clear Out Cocoapods' Cache		
-		rm -rf "${HOME}/Library/Caches/CocoaPods"
-		
+{{< highlight bash >}}
+rm -rf ~/Library/Caches/org.carthage.CarthageKit/
+{{< / highlight >}}
+
+## Clear Out Cocoapods' Cache
+{{< highlight bash >}}
+rm -rf "${HOME}/Library/Caches/CocoaPods"
+{{< / highlight >}}
+
 ## Clear Out Old Brews
-		$ brew cleanup
+{{< highlight bash >}}
+brew cleanup
+{{< / highlight >}}
 
 # VMware Fusion Junk
-As far as I can remember, I've been using VMware Fusion for my virtualization needs on macOS. There was one or two occasions where I tasted other solutions but I always ended up with VMware.
+As far as I can remember, I've been using VMware Fusion for my virtualisation needs on macOS. There was one or two occasions where I tasted other solutions but I always ended up with VMware.
 
 Anyways, if you're like me and using VMware Fusion, you need to watch it out! The thing is that if you've dynamic allocation set for your VMs' disk spaces(which, most probably, you do), VMware does indeed increase the disk spaces by dynamically allocating the space as the naming suggests BUT it does **NOT** dynamically shrink them. Key point!
 
@@ -58,7 +64,9 @@ Here is a preview of things to come:
 {{< img src="xcode-junk.png" title="Xcode's Junk" >}}
 
 ## Delete Unnecessary Xcode Simulators
-		$ xcrun simctl delete unavailable
+{{< highlight bash >}}
+xcrun simctl delete unavailable
+{{< / highlight >}}
 
 ## Xcode | Archives
 Xcode also stores some stuff named archives for some of your projects which are bigger than IPAs because they contain additional data like debug information.
