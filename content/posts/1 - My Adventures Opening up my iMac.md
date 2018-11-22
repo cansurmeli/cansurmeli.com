@@ -34,12 +34,12 @@ Before hand, I made a OS X 10.10(Yosemite) USB installer. First I used it to adj
 
 - boot from the USB installer,
 - switch to the Terminal,
-- type ‘diskutil list’
+- type `diskutil list`,
 - take note of the SSD and the HDD disk IDs, 
 	- for the SSD, take the ID of the main partition,
 	- for the HDD, take the ID covering ONLY the data part. Leave out the recovery partition if you want to retain it without hassle later on.
-- type ‘diskutil cs create [arbitrary_name] disk0 disk1s2’. This command returns an UUID, copy it for the next step,
-- type ‘diskutil cs createVolume [UUID] jhfs+ [arbitrary_name] 100%’.
+- type `diskutil cs create [arbitrary_name] disk0 disk1s2`. This command returns an UUID, copy it for the next step,
+- type `diskutil cs createVolume [UUID] jhfs+ [arbitrary_name] 100%`.
 
 This process presents the two separate disks as a whole to the system, aka a fully functional Fusion Drive in my hands.
 

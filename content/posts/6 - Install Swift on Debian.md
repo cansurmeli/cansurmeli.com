@@ -11,7 +11,7 @@ Recently, I had to use Swift on Debian for a small project of mine.
 
 There are various installation procedures on the web for installing Swift on Linux but they're mostly for Ubuntu. Since things change with every Linux distribution, I want to share what I did.
 
-The following procedure will cover installing Swift 4.1.2 on Debian Jessie.
+The following procedure will cover installing `Swift 4.1.2` on `Debian Jessie`.
 
 1. Make sure your Debian system is up-to-date,
 
@@ -19,13 +19,15 @@ The following procedure will cover installing Swift 4.1.2 on Debian Jessie.
 apt-get update && sudo apt-get upgrade
 {{< / highlight >}}
 
-2. Install the dependencies required by Swift
+
+2. Install the dependencies required by Swift,
 
 {{< highlight bash >}}
 apt-get install clang libicu-dev
 {{< / highlight >}}
 
 3. Check that you've `alien` installed. We'll need it later on,
+
 {{< highlight bash >}}
 sudo apt-get install alien
 {{< / highlight >}}

@@ -15,11 +15,11 @@ I know that Apple doesn’t allows this, they all want things to just work with 
 
 A little detective work came up with the answer: iPhone / iPod Touch Backup Extractor Given the very obvious name, this little app does exactly one job that you expect. Analysis your backup and extracts data out of it on your Mac so that in order to save a couple of files, you don’t have to make a full restore.
 
-App Screenshot
+[App Screenshot]
 
 To do so:
 
-launch the app,
+- launch the app,
 if you have only allowed authorised apps(Mac App Store | identified developers) to be launched, then right-click to the app icon and choose Open. This will override this security measure just for this app for the time being.
 click `Read Backups’ button on the bottom left corner,
 select your backup file,
