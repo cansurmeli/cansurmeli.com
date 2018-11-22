@@ -5,6 +5,7 @@ date: 2017-11-16
 tags: ["xcode"]
 draft: false
 image_dir: "/images/5-Enabling-Hidden-Xcode-Simulator-Features/"
+type: "post"
 ---
 
 Apple has some nice little features for the simulator in Xcode to boost your productivity or improve your environment. However, unfortunately, even if they're currently fully functional, they're hidden away. And knowing Apple, they'll most probably keep it that way.

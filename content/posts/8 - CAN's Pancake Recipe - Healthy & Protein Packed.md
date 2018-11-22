@@ -5,6 +5,7 @@ date: 2018-07-13
 tags: ["food", "health"]
 draft: false
 image_dir: "/images/8-CANs-Pancake-Recipe-Healthy-Protein-Packed/"
+type: "post"
 ---
 
 I most definitely enjoy eating! Especially, a good breakfast. Nothing holds the place of some delicious food with some coffee in the morning.

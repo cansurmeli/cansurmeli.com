@@ -4,6 +4,7 @@ slug: "cat-cable-guide-for-humans"
 date: 2016-11-30
 tags: ["tech", "IT"]
 draft: false
+type: "post"
 ---
 
 A while ago, I learned that for some time building contractor’s were using ethernet cables to build the telephony network running inside homes. Since RJ11(telephone jack) requires only two copper wires to function, the contractor uses ethernet cables(which have either 6 or 8 copper wires) to build up the telephony network, connects only 2 of those 6 or 8 wires and leaves out the rest hanging. The reasoning behind this: well easy, not much of a price difference between regular telephony networking cable and ethernet cable.

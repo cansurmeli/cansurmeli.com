@@ -5,6 +5,7 @@ date: 2018-07-26
 tags: ["iPhone", "hardware"]
 draft: false
 image_dir: "/images/9-Tips-for-iPhone-Repair/"
+type: "post"
 ---
 For some time, I've been fixing my and my circle's iPhones in terms of hardware difficulties: battery change, screen replacement, etc.
 

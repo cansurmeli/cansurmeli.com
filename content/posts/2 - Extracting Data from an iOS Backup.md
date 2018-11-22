@@ -4,6 +4,7 @@ slug: "extracting-data-from-an-ios-backup"
 date: 2015-08-25
 tags: ["ios"]
 draft: false
+type: "post"
 ---
 
 My little cousin(about 10 years old) broke her iPad in terms of software; don’t ask me the specifics, she somehow managed it which totally baffles me. Anyways, it was requesting an iTunes connection and had be restored. Given her age, she didn’t properly managed her iPad; meaning her photos were not stored on the cloud or even she didn’t had an up-to-date backup.

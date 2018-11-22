@@ -5,6 +5,7 @@ date: 2018-07-04
 tags: ["macOS"]
 draft: false
 image_dir: "/images/7-A-Developer-Freeing-Up-Space-on-macOS/"
+type: "post"
 ---
 
 Even though there are various articles on the web regarding how to free up space on your Mac; those articles are usually for end-users with basic instructions such as delete watched iTunes content, clear out your Trash and etc.
