@@ -7,20 +7,27 @@ draft: false
 type: "post"
 ---
 
-A while ago, I learned that for some time building contractor’s were using ethernet cables to build the telephony network running inside homes. Since RJ11(telephone jack) requires only two copper wires to function, the contractor uses ethernet cables(which have either 6 or 8 copper wires) to build up the telephony network, connects only 2 of those 6 or 8 wires and leaves out the rest hanging. The reasoning behind this: well easy, not much of a price difference between regular telephony networking cable and ethernet cable.
+# Home Cabling
+A while ago, I learned that for some time, building contractor’s were using ethernet cables to build the telephony network running inside the homes. Since RJ11(telephone jack) requires only two copper wires to function, the contractor uses ethernet cables(which have either 6 or 8 copper wires) to build up the telephony network, connects only 2 of those 6 or 8 wires and leaves out the rest hanging. The reasoning behind: well easy, not much of a price difference between regular telephony networking cable and ethernet cable.
 
-So, you just might have a fully functional LAN network running inside your house. All you have to do is change out your jacks on your walls and make the connections. No extra cabling, no punching through walls. Although I hear you saying, what’s the big deal? Where have you been living? We’ve Wi-Fi. Yes, indeed we do. We can’t do without Wi-Fi. I’m not saying to ditch your Wi-Fi network. It’s mandatory for our smartphones, tablets and other non-wired devices. BUT(and it’s a big but) it’s always better to go with wires when you can. For couple of reasons:
+So, you just might have a fully functional LAN network running inside your house. All you have to do is change out your jacks on your walls and make the connections. No extra cabling, no punching through walls.
+
+# Wi-Fi vs. LAN Cables
+Although I hear you saying, what’s the big deal? Where have you been living? We’ve Wi-Fi. Yes, indeed we do. We can’t do without Wi-Fi. I’m not saying to ditch your Wi-Fi network. It’s mandatory for our smartphones, tablets and other non-wired devices. **BUT it’s always better to go with wires when you can.** For couple of reasons:
+
  - Wi-Fi signals are hard to distribute in houses. Even [the White House](http://www.theverge.com/2016/2/8/10937580/white-house-wifi-is-bad) doesn’t have a great Wi-Fi coverage for the president. The architecture of buildings greatly affects the signal distribution. You’ll get good reception when you’re close to your router but as you move inside your house the signal will degrade. If your house is mostly out of concrete, this degradation will be far worse and you might even have signal dead zones that Wi-Fi may not even function at all.
  - Even if you successfully distribute Wi-Fi signals, a wired connection will not fluctuate due to temporary signal problems that can be caused by microwave ovens or other equipment operating at the same frequency as Wi-Fi,
  - a wired connection will always give you the fastest data transfer rates. Your router might work at 5 GHz but it requires line of sight to do so and even then still it’s not as fast as a wired connection. Therefore if you have a NAS device connected to your home network, you’ll be better off with a wired connection.
 
-As a rule of thumb, go with a wired connection whenever you can and leave out the rest to Wi-Fi.
+# Rule of Thumb
+**As a rule of thumb, go with a wired connection whenever you can and leave out the rest to Wi-Fi.**
 
 Connect your devices such as desktop computer, PS4, XBOX, TV or such with a wired connection. As these devices are more likely to suck in more data(4K video, online gaming, etc.) you’ll be happier with the steady connection a LAN cable provides.
 
-So, enough talk about Wi-Fi vs wired connections. When I learned about the home cabling situation, I set on to investigate my house’s telephony network. My cabling quality didn’t came out as I have expected it to be and in the end I had to opt for power line ethernet. But in the process, I had to extensively deal with ethernet cabling standards. Those `cat<number>` words. So after all this, I thought it was appropiate that I share what I learned.
+# CAT Cables
+So, enough talk about Wi-Fi vs wired connections. When I learned about the home cabling situation, I set on to investigate my house’s telephony network. My cabling quality didn’t come out as I have expected it to be and in the end I had to opt for power line ethernet. But in the process, I had to extensively deal with ethernet cabling standards. Those `cat<number>` words. So after all this, I thought it was appropriate that I share what I learned.
 
-The below is nowhere near a fully fledged guide on network cabling standards. They’re just brief explanations with easy to remember basic information for your piece of mind.
+The below is nowhere near a fully fledged guide on network cabling standards. They’re just brief explanations with easy to remember basic information for your peace of mind.
 
 ## Cat3
 This is dinosaur age cabling. When you see one, get far away as soon as possible.
