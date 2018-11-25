@@ -44,6 +44,11 @@ pygmentsOptions = "linenos=table"
 	name = "Posts"
 	weight = 3
 
+[[menu.main]]
+	url = "/lncs/"
+	name = "LNCS"
+	weight = 3
+
 #[[menu.main]]
 	#url = "/projects/"
 	#name = "Projects"
