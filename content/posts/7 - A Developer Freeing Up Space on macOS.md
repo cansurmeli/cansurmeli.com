@@ -4,7 +4,7 @@ slug: "a-developer-freeing-up-space-on-macos"
 date: 2018-07-04
 tags: ["macOS"]
 draft: false
-image_dir: "/images/7-A-Developer-Freeing-Up-Space-on-macOS/"
+image_dir: "/images/posts/7-A-Developer-Freeing-Up-Space-on-macOS/"
 type: "post"
 ---
 

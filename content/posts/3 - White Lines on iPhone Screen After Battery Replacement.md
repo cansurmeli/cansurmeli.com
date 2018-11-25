@@ -4,7 +4,7 @@ slug: "white-lines-on-iphone-screen-after-battery-replacement"
 date: 2016-05-31
 tags: ["iphone", "hardware"]
 draft: false
-image_dir: "/images/3-White-Lines-on-iPhone-Screen-After-Battery-Replacement/"
+image_dir: "/images/posts/3-White-Lines-on-iPhone-Screen-After-Battery-Replacement/"
 type: "post"
 ---
 

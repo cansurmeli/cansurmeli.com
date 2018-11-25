@@ -4,7 +4,7 @@ slug: "enabling-hidden-xcode-simulator-features"
 date: 2017-11-16
 tags: ["xcode"]
 draft: false
-image_dir: "/images/5-Enabling-Hidden-Xcode-Simulator-Features/"
+image_dir: "/images/posts/5-Enabling-Hidden-Xcode-Simulator-Features/"
 type: "post"
 ---
 
