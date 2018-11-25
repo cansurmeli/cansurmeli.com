@@ -1,7 +1,7 @@
 ---
 title: "RAID"
 slug: "raid"
-date: 2018-25-11
+date: 2018-11-25
 tags: ["computer", "storage"]
 draft: false
 type: "lncs"
