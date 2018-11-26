@@ -18,6 +18,12 @@ publish:
 	git commit -m "Publish commit(build: $(buildNumber))"
 	git push
 
+updateTheme:
+	git submodule update --remote themes/minimal
+	git add *
+	git commit -m "Submodule update."
+	git push
+
 templateMetrics:
 	hugo --templateMetrics --templateMetricsHints
 
