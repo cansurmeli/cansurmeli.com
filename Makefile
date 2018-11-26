@@ -7,7 +7,7 @@ sshALIAS = vps
 currentDIR = /Users/can/Documents/Development/Web/cansurmeli.com/public/
 remoteDIR = /var/www/cansurmeli.com/public_html/
 
-sync:
+publish:
 	rm -rf public
 	hugo
 	rsync ${syncFLAGS} ${currentDIR} ${sshALIAS}:${remoteDIR}
