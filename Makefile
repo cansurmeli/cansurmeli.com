@@ -12,8 +12,8 @@ publish:
 	hugo
 	rsync ${syncFLAGS} ${currentDIR} ${sshALIAS}:${remoteDIR}
 	rm -rf public
-	git add *
 	./incrementBuildNumber.sh
+	git add *
 	$(eval buildNumber := $(shell ./getBuildNumber.sh))
 	git commit -m "Publish commit(build: $(buildNumber))"
 	git push
