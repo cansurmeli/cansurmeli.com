@@ -5,7 +5,7 @@ date: 2018-11-25
 tags: ["computer", "science"]
 type: "lncs"
 draft: false
-image_dir: "images/lncs/2-p-vs-np-vs-np-complete-vs-np-hard"
+image_dir: "/images/lncs/2-p-vs-np-vs-np-complete-vs-np-hard/"
 ---
 # P vs. NP vs. NP-complete vs. NP-hard
 These definitions all refer to *how long it takes* for a program to run.
@@ -61,7 +61,12 @@ These definitions all refer to *how long it takes* for a program to run.
 - Many natural NP problems turns out to be NP-complete
 	- natural problem: a problem which people really care about solving but not an artificial one just to prove a point
 
+## Overall Picture
+Here is a nice picture to see a comparison of everything talked here.
+
+{{< img src="overall-comparison.png" title="Overall Comparison" >}}
+
 ## Resources
-- [https://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard](https://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard)
-- [https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
-- [https://www.quora.com/What-does-NP-hard-mean](https://www.quora.com/What-does-NP-hard-mean)
+- https://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard
+- https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard
+- https://www.quora.com/What-does-NP-hard-mean
