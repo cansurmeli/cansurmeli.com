@@ -18,7 +18,7 @@ pygmentsOptions = "linenos=table"
 	highlightStyle = "solarized-dark"
 	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 	copyrightPrimary = "Powered by [Hugo](https://gohugo.io)."
-	copyrightSecondary = "(theme: [Minimal](https://github.com/calintat/minimal), icons: [fontawesome](https://fontawesome.com/icons?d=gallery))"
+	copyrightSecondary = "theme: [Minimal](https://github.com/calintat/minimal), icons: [fontawesome](https://fontawesome.com/icons?d=gallery)"
 
 [params.matomo]
 	url = "https://analytics.cansurmeli.com/"
