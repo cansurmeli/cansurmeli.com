@@ -7,7 +7,6 @@ type: "lncs"
 draft: false
 image_dir: "/images/lncs/2-p-vs-np-vs-np-complete-vs-np-hard/"
 ---
-# P vs. NP vs. NP-complete vs. NP-hard
 These definitions all refer to *how long it takes* for a program to run.
 
 ## P

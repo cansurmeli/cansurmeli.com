@@ -6,7 +6,6 @@ tags: ["computer", "storage"]
 draft: false
 type: "lncs"
 ---
-# RAID
 Redundant array of independent disks.
 
 With the exception of RAID 1 providing merely speed advantages, RAID systems fall into one of the two categories:
