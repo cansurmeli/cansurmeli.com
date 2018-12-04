@@ -4,7 +4,7 @@ slug: "my-adventures-opening-up-my-imac"
 date: 2015-02-11
 tags: ["mac", "hardware"]
 draft: false
-type: "post"
+type: "posts"
 ---
 
 A while ago, I performed a brain surgery on my iMac. I removed the optical disc drive, put a SSD in place and combined the SSD with the already installed HDD in order to create a fusion drive in order to achieve a much much better performance while increasing my storage.

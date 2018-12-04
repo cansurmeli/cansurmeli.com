@@ -4,7 +4,7 @@ slug: "extracting-data-from-an-ios-backup"
 date: 2015-08-25
 tags: ["ios"]
 draft: false
-type: "post"
+type: "posts"
 ---
 
 My little cousin(about 10 years old) broke her iPad in terms of software; don’t ask me the specifics, she somehow managed it which totally baffles me.

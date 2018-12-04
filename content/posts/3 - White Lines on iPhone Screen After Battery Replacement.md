@@ -5,7 +5,7 @@ date: 2016-05-31
 tags: ["iphone", "hardware"]
 draft: false
 image_dir: "/images/posts/3-White-Lines-on-iPhone-Screen-After-Battery-Replacement/"
-type: "post"
+type: "posts"
 ---
 
 I’m a DIY person. I believe in the mantra of iFixit: “repair is noble”. Even though my iPhone 6 was under warranty, I never thought of taking it to Apple to get it’s battery replaced free of charge when the battery started dying when it reached somewhere in between 30-20%. Bad battery. 😝

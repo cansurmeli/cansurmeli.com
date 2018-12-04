@@ -4,7 +4,7 @@ slug: "raspberry-pi-what-to-do-after-first-boot"
 date: 2018-10-16
 tags: ["raspberrypi", "hacking"]
 draft: false
-type: "post"
+type: "posts"
 ---
 When you boot into your Raspberry Pi for the first time, it’s ready to do wonders! But before you do so, you can/should do some adjustments to better manage it.
 

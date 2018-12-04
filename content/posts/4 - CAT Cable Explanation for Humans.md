@@ -4,7 +4,7 @@ slug: "cat-cable-guide-for-humans"
 date: 2016-11-30
 tags: ["tech", "IT"]
 draft: false
-type: "post"
+type: "posts"
 ---
 
 # Home Cabling

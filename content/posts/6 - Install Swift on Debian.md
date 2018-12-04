@@ -4,7 +4,7 @@ slug: "install-swift-on-debian"
 date: 2018-07-02
 tags: ["swift", "linux"]
 draft: false
-type: "post"
+type: "posts"
 ---
 
 Recently, I had to use Swift on Debian for a small project of mine.
