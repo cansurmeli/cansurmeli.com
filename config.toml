@@ -56,26 +56,26 @@ pygmentsOptions = "linenos=table"
 
 [[menu.icon]]
 	url = "mailto:c_surmeli@icloud.com"
-	name = "envelope-o"
+	name = "far fa-envelope"
 	weight = 1
 
 [[menu.icon]]
 	url = "https://github.com/cansurmeli/"
-	name = "github"
+	name = "fab fa-github"
 	weight = 2
 
 [[menu.icon]]
 	url = "https://twitter.com/cansurmeli/"
-	name = "twitter"
+	name = "fab fa-twitter"
 	weight = 3
 
 [[menu.icon]]
 	url = "https://stackoverflow.com/users/1169053/can-sürmeli"
-	name = "stack-overflow"
+	name = "fab fa-stack-overflow"
 	weight = 4
 
 [[menu.icon]]
 	url = "https://www.500px.com/c_surmeli"
-	name = "500px"
+	name = "fab fa-500px"
 	weight = 5
 
