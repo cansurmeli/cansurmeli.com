@@ -18,6 +18,6 @@ Besides Apple, I'm a huge fan of CentOS and therefore run/manage almost all of m
 
 Plus I'd like to tinker with Raspberry Pis on the side.
 
-I'm kind of fading away from [Twitter](https://twitter.com/cansurmeli/)due to too much noise going around so the best way to reach me is via [e-mail](mailto:c_surmeli@icloud.com).
+I'm kind of fading away from [Twitter](https://twitter.com/cansurmeli/) due to too much noise going around so the best way to reach me is via [e-mail](mailto:c_surmeli@icloud.com).
 
 You can check my code on my [GitHub](https://github.com/cansurmeli/), see my discussions on [StackOverflow](https://stackoverflow.com/users/1169053/can) or view my photography at [500px](https://500px.com/c_surmeli).
