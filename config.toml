@@ -10,10 +10,6 @@ pygmentsOptions = "linenos=table"
 	author = "Can Sürmeli"
 	description = "an eager to learn developer who hacks things and cares deeply about UI/UX; and also a sportsman"
 	githubUsername = "cansurmeli"
-	accent = "#33658A"
-	showBorder = true
-	backgroundColor = "white"
-	font = "Raleway" # should match the name on Google Fonts!
 	highlight = true
 	highlightStyle = "solarized-dark"
 	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
