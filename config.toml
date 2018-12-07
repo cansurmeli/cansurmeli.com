@@ -13,8 +13,7 @@ pygmentsOptions = "linenos=table"
 	highlight = true
 	highlightStyle = "solarized-dark"
 	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
-	copyrightPrimary = "Powered by [Hugo](https://gohugo.io)."
-	copyrightSecondary = "theme: [Minimal](https://github.com/calintat/minimal), icons: [fontawesome](https://fontawesome.com/icons?d=gallery)"
+	copyright= "Powered by [Hugo](https://gohugo.io)"
 
 [params.matomo]
 	url = "https://analytics.cansurmeli.com/"
@@ -44,15 +43,6 @@ pygmentsOptions = "linenos=table"
 	url = "/lncs/"
 	name = "LNCS"
 	weight = 3
-
-#[[menu.main]]
-	#url = "/projects/"
-	#name = "Projects"
-	#weight = 4
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
 	url = "mailto:c_surmeli@icloud.com"
