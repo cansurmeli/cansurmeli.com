@@ -3,7 +3,6 @@
 title: "About Me"
 date: null
 draft: false
-type: "page"
 ---
 
 Hi, I'm Can.
