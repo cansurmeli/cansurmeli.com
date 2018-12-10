@@ -5,6 +5,7 @@ date: 2018-11-25
 tags: ["computer", "storage"]
 draft: false
 type: "lncs"
+markup: mmark
 ---
 Redundant array of independent disks.
 
@@ -46,6 +47,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 	- block,
 - Much faster write performance BUT if one fails, all data is lost since the two disks were treated as a single logical drive.
 
+{.table}
 | Disk 0 | Disk 1 |
 |:------:|:------:|
 |   A1   |   A2   |
@@ -60,6 +62,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 	- the RAID controller will switch to the active one,
 	- when the faulty drive gets changed, the RAID controller will clone the data into the new drive.
 
+{.table}
 | Disk 0 | Disk 1 |
 |:------:|:------:|
 |   A1   |   A1   |
@@ -77,6 +80,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - bad random read/write,
 - Since error codes are available in hard disk themselves, this RAID configuration is not used anymore.
 
+{.table}
 | Disk 0 | Disk 1 | Disk 2 | Disk 3 | Disk 4 | Disk 5 | Disk 6 |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |   A1   |   A2   |   A3   |   A4   |   Ap1  |   Ap2  |   Ap3  |
@@ -95,6 +99,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - Maybe good for video editing,
 - Not commonly used.
 
+{.table}
 | Disk 0 | Disk 1 | Disk 2 | Disk 3 |
 |:------:|:------:|:------:|:-------:|
 |   A1   |   A2   |   A3   | Ap(1-3) |
@@ -111,6 +116,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - Does not require disk to spin in sync,
 - Not very commonly used.
 
+{.table}
 | Disk 0 | Disk 1 | Disk 2 | Disk 3 |
 |:------:|:------:|:------:|:------:|
 |   A1   |   A2   |   A3   |   Ap   |
@@ -126,6 +132,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - Parity storage => slow write,
 - Good for databases.
 
+{.table}
 | Disk 0 | Disk 1 | Disk 2 | Disk 3 |
 |:------:|:------:|:------:|:------:|
 |   A1   |   A2   |   A3   |   Ap   |
@@ -139,6 +146,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 	- therefore useful in scenarios where there are a lot more disks than in the diagram above where two disks can fail at the same time.
 - Uses block striping.
 
+{.table}
 | Disk 0 | Disk 1 | Disk 2 | Disk 3 | Disk 4 |
 |:------:|:------:|:------:|:------:|--------|
 |   A1   |   A2   |   A3   |   Ap   | Aq     |
