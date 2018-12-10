@@ -31,7 +31,7 @@ pygmentsOptions = "linenos=table"
 
 [[menu.main]]
 	url = "/about-me/"
-	name = "About"
+	name = "About Me"
 	weight = 2
 
 [[menu.main]]
