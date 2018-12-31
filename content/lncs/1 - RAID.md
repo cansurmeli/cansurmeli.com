@@ -57,7 +57,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 
 ### RAID 1
 - Designed for liability,
-- Clones everything in disk0 to disk1; therefore functions as a backup,
+- Clones everything in disk0 to disk1,
 - If one fails:
 	- the RAID controller will switch to the active one,
 	- when the faulty drive gets changed, the RAID controller will clone the data into the new drive.
