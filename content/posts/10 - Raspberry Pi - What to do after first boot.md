@@ -193,7 +193,10 @@ About port number designations:
 - 49152 - 65535: dynamic and/or private ports. Ideal for custom ports designations.
 
 ## [optional] Install ZSH
-Bash is a great shell, because of some of zsh's advantages, I prefer to work with zsh; e.g. much better auto-complete.
+Bash is a great shell, although I prefer to work with Zshell(zsh) because it's much more capable:
+
+- extensive auto-complete,
+- further customisations
 
 Hence, to install it and make it your default:
 
@@ -203,7 +206,7 @@ chsh -s $(which zsh)
 {{< / highlight >}}
 
 ## [optional] Change it's hostname
-If you (will)have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
+If you (will) have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
 
 For the hostname, you can only use:
 
@@ -236,7 +239,7 @@ You can do a lot with a Pi but here are some everyday ideas to make it useful in
 - [VNC Server](https://pimylifeup.com/raspberry-pi-vnc-server/) (remote desktop)
 - [Kodi](https://www.raspberrypi.org/documentation/usage/kodi/) (media center running on Raspbian)
 - [AirPlay Receiver](https://pimylifeup.com/raspberry-pi-airplay-receiver/) (bring those old stereo equipment of yours to life without Apple's tax 😉)
-- [iStat Server](https://bjango.com/istatserver/) (to monitor your Pi's stats)
+- [iStat Server](https://bjango.com/istatserver/) (monitor your Pi's stats)
 - [NAS Server](https://pimylifeup.com/raspberry-pi-nas/) (share a disk across your network)
 
 **Remark**
