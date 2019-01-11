@@ -12,17 +12,17 @@ Over the years, I’ve setup many `Pi`s and here are the things I perform when I
 
 **Before we get started:**
 
-- I'm a CLI person so all of the above will be about working via the SSH,
+- I'm a CLI person; so, all of the below will be about working via the SSH,
 - for the sake of clarity, I've diluted some stuff. Therefore you need some prior knowledge on how to work with the CLI,
 - the below are fairly common *nix commands, however, you should keep in mind that I assume you've installed Raspbian and you're on a Mac,
-- some steps are not mandatory as mentioned below **BUT** they're much preferred as best practices. Especially if you've not a lot of experience working with *nix systems, I highly suggest them to get familiar with dealing with such systems. One day, you may have to deal with an instance somewhere on the cloud and it's better to start with training wheels(in this case, your Pi).
+- some steps are not mandatory as mentioned below **BUT** they're much preferred as best practices. Especially if you don't have a lot of experience working with *nix systems, I highly suggest applying them to get familiar with dealing with such systems. One day, you may have to put effort on the cloud and it's better to start with training wheels.
 
-## Start logging
-Alright, first things first. Good practices at all times.
+## [mandatory] Start logging
+Alright, first things first. Good practices at all times! Keep a log of what you've done with your Pi.
 
-You might see your Pi as a spare time hobby thing but chances are you might have to setup another Pi in the future or you might need the things you've accomplished with this one for something else. As time goes by, you'll forget what you've configured; especially the minor ones.
+You might see your Pi as a spare time hobby thing but chances are you might have to setup another Pi in the future or you might need the things you've accomplished with this one for something else entirely. You know, Linux is everywhere.
 
-So, be a good lad or gal, and write down exactly what you've configured. Nothing fancy: just a few words and a link to the tutorial if there is one should be sufficient.
+As time goes by, you'll forget what you've configured; especially the minor ones. So, be a good lad or gal, and write down exactly what you've configured. Nothing fancy: just a few words and a link to the tutorial if there is one should be sufficient.
 
 ## [mandatory] Change the default password
 That should be the very first thing you do when you first boot into your Pi.
@@ -85,8 +85,6 @@ Again, the above process will also take quite a bit of time depending on your Ma
 One last thing to mention about cloning is to repeat from time to time. Your Pi is not a mission critical thing, so it doesn't need to be cloned in a tight manner but a clone every a few months should do it.
 
 ## [optional] Install vim
-This isn’t mandatory but merely a suggestion.
-
 Raspbian doesn’t come with `vim` pre-installed which is the editor I prefer.
 
 {{< highlight bash >}}
