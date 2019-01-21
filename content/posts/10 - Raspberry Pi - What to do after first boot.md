@@ -12,10 +12,17 @@ Over the years, I’ve setup many `Pi`s and here are the things I perform when I
 
 **Before we get started:**
 
-- I'm a CLI person so all of the above will be about working via the SSH,
+- I'm a CLI person; so, all of the below will be about working via the SSH,
 - for the sake of clarity, I've diluted some stuff. Therefore you need some prior knowledge on how to work with the CLI,
-- the below are fairly common *nix commands, however, you should keep in mind that I assume you've installed Raspbian,
-- some steps are not mandatory as mentioned below **BUT** they're much preferred as best practices. Especially if you've not a lot of experience working with *nix systems, I highly suggest them to get familiar with dealing with such systems. One day, you may have to deal with an instance somewhere on the cloud and it's better to start with training wheels(in this case, your Pi).
+- the below are fairly common *nix commands, however, you should keep in mind that I assume you've installed Raspbian and you're on a Mac,
+- some steps are not mandatory as mentioned below **BUT** they're much preferred as best practices. Especially if you don't have a lot of experience working with *nix systems, I highly suggest applying them to get familiar with dealing with such systems. One day, you may have to put effort on the cloud and it's better to start with training wheels.
+
+## [mandatory] Start logging
+Alright, first things first. Good practices at all times! Keep a log of what you've done with your Pi.
+
+You might see your Pi as a spare time hobby thing but chances are you might have to setup another Pi in the future or you might need the things you've accomplished with this one for something else entirely. You know, Linux is everywhere.
+
+As time goes by, you'll forget what you've configured; especially the minor ones. So, be a good lad or gal, and write down exactly what you've configured. Nothing fancy: just a few words and a link to the tutorial if there is one should be sufficient.
 
 ## [mandatory] Change the default password
 That should be the very first thing you do when you first boot into your Pi.
@@ -38,9 +45,50 @@ Even if you’ve just downloaded Raspbian, it will have some outdated packages l
 apt-get update && sudo apt-get upgrade && sudo apt-get clean
 {{< / highlight >}}
 
-## [optional] Install vim
-This isn’t mandatory but merely a suggestion.
+## [mandatory] Clone the SD Card
+I can't emphasise this enough! Once you've configured your Pi to your needs, you **MUST** clone the SD card.
 
+By cloning the SD card, you'll have a re-usable image. Exactly like the Raspbian image you've downloaded but with all the software you've installed and the configurations you've made.
+
+Therefore, if something goes wrong with your Pi(and chances are that it will), you can easily carry on with the clone you've made rather than a clean slate.
+
+Depending on when you've made your clone, you might have some inconsistencies with your last working Pi state, but trust me, if you've made a lot with your Pi, like me, it's much better to deal with minor inconsistencies than major ones; like a fresh copy of Raspbian. :]
+
+One more thing before we start. The clone you'll be making will be the size of your SD card even though you're not using all of it's capacity. Therefore the cloned image of a 32GB SD card will take up 32 GB of space on your computer.
+
+In order to create a clone of your Pi:
+
+- power off your Pi,
+- remove the SD card,
+- place the SD card into your Mac,
+- launch Terminal,
+- type `diskutil list`,
+- note the identifier of your SD card(e.g. `disk2`),
+- type `sudo dd if=/dev/disk[ID] of=~/Downloads/rpi.dmg`
+- give in your password,
+- wait.
+
+The amount of time consumed by the cloning operation will depend on your Macs speed and your SD cards size.
+
+And the bummer is that, there is no progress bar during the operation. So, be patient and let the process run its course.
+
+For instance, the clone I've made on my 2017 MBP(2.8 GHz i7 with 16 GB RAM) took roughly 70 minutes.
+
+In order to restore your clone:
+
+- place the SD card into your Mac,
+- launch Terminal,
+- type `diskutil list`,
+- note the identifier of your SD card(e.g. `disk2`),
+- type `distil unmountDisk /dev/disk[ID]`,
+- type `sudo newfs_msdos -F 16 /dev/disk[ID]` to format your SD card,
+- type `sudo dd if=~/Desktop/raspberrypi.dmg of=/dev/disk[ID]`
+
+Again, the above process will also take quite a bit of time depending on your Macs speed and the images size; and there is no progress bar again. So be patient.
+
+One last thing to mention about cloning is to repeat from time to time. Your Pi is not a mission critical thing, so it doesn't need to be cloned in a tight manner but a clone every a few months should do it.
+
+## [optional] Install vim
 Raspbian doesn’t come with `vim` pre-installed which is the editor I prefer.
 
 {{< highlight bash >}}
@@ -149,7 +197,10 @@ About port number designations:
 - 49152 - 65535: dynamic and/or private ports. Ideal for custom ports designations.
 
 ## [optional] Install ZSH
-Bash is a great shell, because of some of zsh's advantages, I prefer to work with zsh; e.g. much better auto-complete.
+Bash is a great shell, although I prefer to work with Zshell(zsh) because it's much more capable:
+
+- extensive auto-complete,
+- further customisations
 
 Hence, to install it and make it your default:
 
@@ -159,7 +210,7 @@ chsh -s $(which zsh)
 {{< / highlight >}}
 
 ## [optional] Change it's hostname
-If you (will)have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
+If you (will) have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
 
 For the hostname, you can only use:
 
@@ -192,7 +243,7 @@ You can do a lot with a Pi but here are some everyday ideas to make it useful in
 - [VNC Server](https://pimylifeup.com/raspberry-pi-vnc-server/) (remote desktop)
 - [Kodi](https://www.raspberrypi.org/documentation/usage/kodi/) (media center running on Raspbian)
 - [AirPlay Receiver](https://pimylifeup.com/raspberry-pi-airplay-receiver/) (bring those old stereo equipment of yours to life without Apple's tax 😉)
-- [iStat Server](https://bjango.com/istatserver/) (to monitor your Pi's stats)
+- [iStat Server](https://bjango.com/istatserver/) (monitor your Pi's stats)
 - [NAS Server](https://pimylifeup.com/raspberry-pi-nas/) (share a disk across your network)
 
 **Remark**
