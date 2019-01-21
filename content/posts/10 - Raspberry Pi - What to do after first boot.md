@@ -54,6 +54,8 @@ Therefore, if something goes wrong with your Pi(and chances are that it will), y
 
 Depending on when you've made your clone, you might have some inconsistencies with your last working Pi state, but trust me, if you've made a lot with your Pi, like me, it's much better to deal with minor inconsistencies than major ones; like a fresh copy of Raspbian. :]
 
+One more thing before we start. The clone you'll be making will be the size of your SD card even though you're not using all of it's capacity. Therefore the cloned image of a 32GB SD card will take up 32 GB of space on your computer.
+
 In order to create a clone of your Pi:
 
 - power off your Pi,
@@ -69,6 +71,8 @@ In order to create a clone of your Pi:
 The amount of time consumed by the cloning operation will depend on your Macs speed and your SD cards size.
 
 And the bummer is that, there is no progress bar during the operation. So, be patient and let the process run its course.
+
+For instance, the clone I've made on my 2017 MBP(2.8 GHz i7 with 16 GB RAM) took roughly 70 minutes.
 
 In order to restore your clone:
 
