@@ -35,24 +35,9 @@ pygmentsOptions = "linenos=table"
 	weight = 2
 
 [[menu.main]]
-	url = "/excerpts/"
-	name = "Excerpts"
-	weight = 3
-
-[[menu.main]]
 	url = "/posts/"
 	name = "Posts"
 	weight = 4
-
-[[menu.main]]
-	url = "/lncs/"
-	name = "LNCS"
-	weight = 5
-
-[[menu.main]]
-	url = "/reviews/"
-	name = "Reviews"
-	weight = 6
 
 [[menu.icon]]
 	url = "mailto:c_surmeli@icloud.com"
