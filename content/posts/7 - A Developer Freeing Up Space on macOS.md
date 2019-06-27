@@ -30,6 +30,25 @@ rm -rf "${HOME}/Library/Caches/CocoaPods"
 brew cleanup
 {{< / highlight >}}
 
+# Unnecessary Languages/Architectures
+
+You could be using multiple keyboard layouts but most probably(i.e. 99.999999%), you're making use of only one single OS/app language. So, a lot of the unnecessary language files are standing there doing nothing but taking up your valuable storage space.
+
+You could visit each and every application you've got and hunt down their language files but why bother; use [Monolingual](https://ingmarstein.github.io/Monolingual/).
+
+With Monolingual, not only you can cleanup unused OS/app languages but also you can get rid of the architectures you're not making use of.
+
+For instance, by removing the languages I'm not using, which was anything but English, I've made a saving of close to 1 GB.
+
+{{< img src="monolingual.png" title="Unnecessary Language File Removal with Monolingual" >}}
+
+However, do be careful when you're deleting the:
+
+- **unused languages:** If your English is set to a non-American English like the British English, do leave both the American and the British English behind as some apps might be defaulting to the American English and if you delete that you might have to deal with weird texts and end up reinstalling some of your software.
+- **app architectures:** This is a tad more elaborate and could lead to some apps not launching afterwards. Of course, a reinstall of those apps would solve the situation but approach this deletion **if you know what you're doing**.
+
+> Also, I wish, Apple would've supported this itself by employing app thinning on iOS to macOS as well and improve the process.
+
 # VMware Fusion Junk
 As far as I can remember, I've been using VMware Fusion for my virtualisation needs on macOS. There was one or two occasions where I tasted other solutions but I always ended up with VMware.
 
