@@ -32,18 +32,18 @@ I can't emphasise this enough! You need to be patient when opening up your iPhon
 
 # Only Buy From Respected Sellers
 
-iPhones are everywhere. Therefore their spare parts are everywhere as well. If you take the bait of buying the cheap spare part just so you think you're being smart, think again!
+iPhones are everywhere. Therefore their spare parts are everywhere as well. However, that doesn't mean that every spare part is created equal.
 
-There are loads of spare part manufacturers for iPhones and not all of those are created equally. If you buy from a non-reputable source, you might end up with one of the following:
+If you take the bait of buying the cheap spare part, you'll most probably regret it. It could be that your:
 
-- battery heating up(actually happened to me),
-- battery exploding(thank goodness, not happened to me),
-- screen not fit enough(that was a pain in the ass),
-- color profile not adjusted correctly on the screen,
-- screen glass coming off after a fall due to the screen glue not being good enough,
+- battery could heat up(happened to me),
+- battery could explode(thank goodness, not happened to me),
+- screen would not fit perfectly(that was a pain in the ass),
+- screen won't have the proper colour profile,
+- screen glass could come off after a few falls due to the cheap assembly of the screen(that was disappointing),
 - ...
 
-Therefore, don't act cheap and don't buy what the other sellers are saying and go for the parts from reputable sources. As far as I'm aware of, there are two reputable sources: [iFixit](https://www.ifixit.com) and [eTradeSupply](https://www.etradesupply.com).
+Therefore, don't act cheap and don't listen to what the other sellers are saying and go for the parts from reputable sources. As far as I'm aware of, there are only two reputable sources: [iFixit](https://www.ifixit.com) and [eTradeSupply](https://www.etradesupply.com).
 
 I prefer iFixit because besides being top-quality, they're much more cheaper with the logistics.
 
