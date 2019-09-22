@@ -5,6 +5,7 @@ date: 2018-11-25
 tags: ["computer", "storage"]
 draft: false
 type: "lncs"
+image_dir: "/images/posts/11-RAID/"
 markup: mmark
 ---
 Redundant array of independent disks.
@@ -15,11 +16,13 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - or parity blocks are added into the system so that failed blocks can be recovered.
 
 ## Provides
+
 - fault tolerance
 - redundancy
 - speed
 
 ## Configurations
+
 **Common:**
 
 - RAID 0
@@ -38,9 +41,14 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - RAID 53
 - RAID 100
 
-> **remark:** For the below representations, assume each disk is of 1TB capacity.
+Also, I would like to share this picture with you as an easy to remember reference. It doesn't cover all of the RAID configurations and covers some other stuff as well but it's sure fun to look at!
+
+{{< img src="water-disk-configurations.jpg" title="Disk configurations with water" >}}
+
+> **remark:** For the below representations, assume that each disk is of 1TB capacity.
 
 ### RAID 0
+
 - Uses a form of striping:
 	- bit,
 	- byte,
@@ -56,6 +64,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   A7   |   A8   |
 
 ### RAID 1
+
 - Designed for liability,
 - Clones everything in disk0 to disk1,
 - If one fails:
@@ -71,6 +80,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   A4   |   A4   |
 
 ### RAID 2
+
 - Requires a minimum fo 3 drives to function,
 - Data is striped at bit level,
 - Disks d0...d3 MUST spin in sync,
@@ -89,6 +99,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   D1   |   D2   |   D3   |   D4   |   Dp1  |   Dp2  |   Dp3  |
 
 ### RAID 3
+
 - Data is striped at byte level,
 - Disks d0...d2 must spin in sync,
 - Requires a minimum of three disks to operate,
@@ -108,6 +119,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   B4   |   B5   |   B6   | Bp(4-6) |
 
 ### RAID 4
+
 - Striped at block level,
 - Has a dedicated parity disk,
 - Since striped:
@@ -125,6 +137,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   D1   |   D2   |   D3   |   Dp   |
 
 ### RAID 5
+
 - Does not have a dedicated parity drive; instead it distributes the parity sections,
 - The same amount of space is lost to storing the parities BUT there is more space efficiency,
 - The most cost effective solution,
@@ -141,6 +154,7 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   Dp   |   D1   |   D2   |   D3   |
 
 ### RAID 6
+
 - Dual parity,
 	- distributed across disks,
 	- therefore useful in scenarios where there are a lot more disks than in the diagram above where two disks can fail at the same time.
@@ -155,11 +169,13 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 |   Dp   |   Dq   |   D1   |   D2   | D3     |
 
 ### RAID 10(1+0)
+
 - RAID 10 = RAID 1 + RAID 0 (the arrangement here is important)
 - Very efficient,
 - Highly regarded.
 
 ## Disadvantages of RAID:
+
 - storage needs increase:
 	- prevention of data loss is mitigated at the cost of increasing the amount of storage,
 	- mirroring doubles the storage amount,
@@ -169,5 +185,6 @@ With the exception of RAID 1 providing merely speed advantages, RAID systems fal
 - when a drive fails and it doesn't have a replacement in the system, initially, that drive needs to be replaced.
 
 ## Resources
+
 - https://www.youtube.com/watch?v=wTcxRObq738&t=0s&list=WL&index=27
 - https://www.networkcomputing.com/storage/raid-vs-erasure-coding/1792588127
