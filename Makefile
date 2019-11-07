@@ -44,6 +44,7 @@ cleanupImages:
 # -z: compress file data
 # --progress: show progress
 # --delete: delete extraneous files from destination directories
+# --omit-dir-times: rsync doesn't try to sync the directory times in between the source and the host. Due to the fact that macOS's file system isn't compatible with CentOS's.
 
 # https://stackoverflow.com/questions/2826029/passing-additional-variables-from-command-line-to-make
 # https://www.cyberciti.biz/tips/linux-use-rsync-transfer-mirror-files-directories.html
