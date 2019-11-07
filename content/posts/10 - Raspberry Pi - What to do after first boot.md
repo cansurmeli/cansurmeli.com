@@ -27,7 +27,6 @@ As time goes by, you'll forget what you've configured; especially the minor ones
 
 If you want a template, you can grab mine. I've also added some dummy content to get you started.
 
-{{< ref "/static/images/posts/10-Raspberry-Pi-What-to-do-after-first-boot/rPi-Log-Sample.md" >}}
 
 ## [mandatory] Change the default password
 

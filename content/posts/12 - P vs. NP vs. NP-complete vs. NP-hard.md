@@ -5,7 +5,7 @@ date: 2018-11-25
 tags: ["computer", "science"]
 type: "lncs"
 draft: false
-image_dir: "/images/lncs/2-p-vs-np-vs-np-complete-vs-np-hard/"
+content_dir: "/post-contents/12-p-vs-np-vs-np-complete-vs-np-hard/"
 ---
 These definitions all refer to *how long it takes* for a program to run.
 

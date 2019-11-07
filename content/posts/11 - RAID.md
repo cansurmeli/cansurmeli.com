@@ -5,7 +5,7 @@ date: 2018-11-25
 tags: ["computer", "storage"]
 draft: false
 type: "lncs"
-image_dir: "/images/posts/11-RAID/"
+content_dir: "/post-contents/11-RAID/"
 markup: mmark
 ---
 Redundant array of independent disks.

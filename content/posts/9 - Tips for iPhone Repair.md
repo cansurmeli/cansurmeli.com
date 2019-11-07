@@ -4,7 +4,7 @@ slug: "tips-for-iphone-repair"
 date: 2018-07-26
 tags: ["iPhone", "hardware"]
 draft: false
-image_dir: "/images/posts/9-Tips-for-iPhone-Repair/"
+content_dir: "/post-contents/9-Tips-for-iPhone-Repair/"
 type: "posts"
 ---
 

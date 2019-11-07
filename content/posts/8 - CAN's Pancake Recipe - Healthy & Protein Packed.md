@@ -4,7 +4,7 @@ slug: "cans-pancake-recipe-healthy-protein-packed"
 date: 2018-07-13
 tags: ["food", "health"]
 draft: false
-image_dir: "/images/posts/8-CANs-Pancake-Recipe-Healthy-Protein-Packed/"
+content_dir: "/post-contents/8-CANs-Pancake-Recipe-Healthy-Protein-Packed/"
 type: "posts"
 ---
 
