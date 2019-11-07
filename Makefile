@@ -2,7 +2,7 @@
 
 copyFLAGS = -ve --progress
 copyFILES = 
-syncFLAGS = -ravz --progress --delete
+syncFLAGS = -ravz --progress --delete -n
 sshALIAS = vps
 currentDIR = /Users/can/Documents/Development/Web/cansurmeli.com/public/
 remoteDIR = /var/www/cansurmeli.com/public_html/
