@@ -18,13 +18,19 @@ Over the years, I’ve setup many `Pi`s and here are the things I perform when I
 - some steps are not mandatory as mentioned below **BUT** they're much preferred as best practices. Especially if you don't have a lot of experience working with *nix systems, I highly suggest applying them to get familiar with dealing with such systems. One day, you may have to put effort on the cloud and it's better to start with training wheels.
 
 ## [mandatory] Start logging
-Alright, first things first. Good practices at all times! Keep a log of what you've done with your Pi.
 
-You might see your Pi as a spare time hobby thing but chances are you might have to setup another Pi in the future or you might need the things you've accomplished with this one for something else entirely. You know, Linux is everywhere.
+Alright, first things first. Good practices at all times! Therefore keep a log of what you've done with your Pi.
 
-As time goes by, you'll forget what you've configured; especially the minor ones. So, be a good lad or gal, and write down exactly what you've configured. Nothing fancy: just a few words and a link to the tutorial if there is one should be sufficient.
+You might see your Pi as a spare time hobby thing but chances are you are going to setup another Pi in the future or you are going to use the procedures you've accomplished on this Pi in another Linux project of yours; since, you know, Linux is everywhere.
+
+As time goes by, you'll forget what you've configured; especially the minor ones. Also there is good chance that you're going to deal with stuff that weren't exactly hard to accomplish but just hard to figure out what to do and it pays to know what you did so that a ten minute configuration doesn't prolong for hours of research. So, be a good lad or gal, and write down exactly what you've configured. Nothing fancy: just a few words and a link to the tutorial if there is one should be sufficient.
+
+If you want a template, you can grab mine. I've also added some dummy content to get you started.
+
+{{< ref "/static/images/posts/10-Raspberry-Pi-What-to-do-after-first-boot/rPi-Log-Sample.md" >}}
 
 ## [mandatory] Change the default password
+
 That should be the very first thing you do when you first boot into your Pi.
 
 Just type `passwd` and change your Pi’s default password to anything else other than `raspberry`.
@@ -32,11 +38,13 @@ Just type `passwd` and change your Pi’s default password to anything else othe
 `Pi`s are mostly installed in homes to do some hacking on the side so you might be the only one to tinker with it but as a good practice, just do it.
 
 ## [mandatory] Assign a static IP
+
 Since you’ll be remotely interacting with your Pi, it’ll need a static IP. Otherwise you may have to fish it out every time your Pi boots or your network restarts.
 
 To do so, I would like to point you to [this](http://www.circuitbasics.com/how-to-set-up-a-static-ip-on-the-raspberry-pi/) good resource.
 
 ## [mandatory] Update the system
+
 Before you go any further, update your Pi to keep it at it’s best.
 
 Even if you’ve just downloaded Raspbian, it will have some outdated packages lying inside.
@@ -46,6 +54,7 @@ apt-get update && sudo apt-get upgrade && sudo apt-get clean
 {{< / highlight >}}
 
 ## [mandatory] Clone the SD Card
+
 I can't emphasise this enough! Once you've configured your Pi to your needs, you **MUST** clone the SD card.
 
 By cloning the SD card, you'll have a re-usable image. Exactly like the Raspbian image you've downloaded but with all the software you've installed and the configurations you've made.
@@ -89,6 +98,7 @@ Again, the above process will also take quite a bit of time depending on your Ma
 One last thing to mention about cloning is to repeat from time to time. Your Pi is not a mission critical thing, so it doesn't need to be cloned in a tight manner but a clone every a few months should do it.
 
 ## [optional] Install vim
+
 Raspbian doesn’t come with `vim` pre-installed which is the editor I prefer.
 
 {{< highlight bash >}}
@@ -98,6 +108,7 @@ apt-get install vim
 Also, from this point on, I will be explaining file edits via Vim. If you choose not do so, go with your preferred text editor.
 
 ## [optional] Create a custom user
+
 I can’t think of a mandatory technical reason for this one but in order to keep things neat and tidy, I prefer to create a new user account to work on the Pi.
 
 To create a new user, simply execute the following command:
@@ -132,6 +143,7 @@ And now take your newly created user's `sudo` privileges for a spin:
 I would suggest you not to delete the user `pi` since some software makes use of it!
 
 ## [optional] Password-less login
+
 It's more secure and convenient to login with public-key authentication.
 
 First make sure that you're logged in as your newly created user. Afterwards:
@@ -160,6 +172,7 @@ cat [KEY_NAME].pub | pbcopy
 {{< / highlight >}}
 
 ## [optional] Adjust your SSH defaults
+
 Let's do some basic adjustments to how `sshd` functions. This will be a quick recap and if you want more detail on what relates to what, do search the web or checkout the resources down below.
 
 First, open the file that holds the configuration for `sshd`:
@@ -197,6 +210,7 @@ About port number designations:
 - 49152 - 65535: dynamic and/or private ports. Ideal for custom ports designations.
 
 ## [optional] Install ZSH
+
 Bash is a great shell, although I prefer to work with Zshell(zsh) because it's much more capable:
 
 - extensive auto-complete,
@@ -210,6 +224,7 @@ chsh -s $(which zsh)
 {{< / highlight >}}
 
 ## [optional] Change it's hostname
+
 If you (will) have multiple Pis on your network or just want to differentiate your single Pi's name, you should change it's hostname.
 
 For the hostname, you can only use:
@@ -235,6 +250,7 @@ vim /etc/hosts
 Find the line starting with `127.0.0.1` and change the hostname to your preferred one.
 
 ## Ideas
+
 Now that your Pi’s got the fundamentals, the world is yours! 😜
 
 You can do a lot with a Pi but here are some everyday ideas to make it useful in your home environment:
@@ -257,6 +273,7 @@ You can also go with the path of installing Raspbian on an SD card and OpenElec 
 If you want some more information on turning a Pi hardware into a media center, [here](https://www.smarthomebeginner.com/media-center-softwares-for-raspberry-pi/) is a good resource.
 
 ## Resources
+
 - [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
 - [Renaming your Raspberry Pi - the 'hostname'](https://thepihut.com/blogs/raspberry-pi-tutorials/19668676-renaming-your-raspberry-pi-the-hostname)
 - [How to change your SSH Port on the Raspberry Pi](http://kamilslab.com/2016/12/10/how-to-change-your-ssh-port-on-the-raspberry-pi/)
