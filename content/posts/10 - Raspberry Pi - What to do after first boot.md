@@ -4,6 +4,7 @@ slug: "raspberry-pi-what-to-do-after-first-boot"
 date: 2018-10-16
 tags: ["raspberrypi", "hacking"]
 draft: false
+content_dir: "/post-contents/10-Raspberry-Pi-What-to-do-after-first-boot/"
 type: "posts"
 ---
 When you boot into your Raspberry Pi for the first time, it’s ready to do wonders! But before you do so, you can/should do some adjustments to better manage it.
@@ -27,7 +28,7 @@ As time goes by, you'll forget what you've configured; especially the minor ones
 
 If you want a template, you can grab mine. I've also added some dummy content to get you started.
 
-{{< file name="Raspberry Pi Log Sample" src="rPi-Log-Sample.md"  >}}
+{{< file name="Raspberry Pi Log Sample" src="rPi-Log-Sample.md" >}}
 
 ## [mandatory] Change the default password
 
