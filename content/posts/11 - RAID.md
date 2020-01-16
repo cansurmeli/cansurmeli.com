@@ -6,7 +6,7 @@ tags: ["computer", "storage"]
 draft: false
 type: "lncs"
 content_dir: "/post-contents/11-RAID/"
-markup: mmark
+markup: goldmark
 ---
 Redundant array of independent disks.
 
