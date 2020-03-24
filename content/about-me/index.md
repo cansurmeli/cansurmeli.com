@@ -9,14 +9,14 @@ Hi, I'm Can.
 
 > (It's pronounced as `John` as in when you're talking in English with an American accent; so, if one day we come face to face, it's quite alright to address me as John. 😏)
 
-Anyways, I'm a computer engineer from Istanbul, Turkey. Currently I'm wrestling with my master's degree in Informatik(the German way of saying Computer Science) at Universität Passau in Passau, Germany.
+Anyways, I'm a computer engineer from Istanbul, Turkey. I've completed my bachelor's degree in Computer Science in Yeditepe University. Currently I'm wrestling with my master's degree in Informatik(the German way of saying Computer Science) at Universität Passau in Passau, Germany.
 
-My area of focus is intelligent technical systems and I mainly play in Apple's ecosystem via Swift; mostly iOS but recently some macOS and server-side as well.
+I mainly play in Apple's ecosystem via Swift. Plus, on the side, I tinker with Raspberry Pis and do some system administration on a couple of Linux boxes to handle my infrastructure needs.
 
-Besides Apple, I'm a huge fan of CentOS and therefore run/manage almost all of my infrastructure needs on a CentOS instance.
+After years of development, currently I'm in the Unix mindset that I prefer the Terminal interface over GUIs. If we're discussing about development in general, it's quite plausible that you'll hear me brag about Vim, the best editor ever(yeah, there I said it)!
 
-Plus I'd like to tinker with Raspberry Pis on the side.
+Besides computers, I'm a sports junkie. My main areas of interest are fitness and Judo but I also go out running/biking or do climbing/bouldering from time to time.
 
-I'm kind of fading away from [Twitter](https://twitter.com/cansurmeli/) due to too much noise going around so the best way to reach me is via [e-mail](mailto:c_surmeli@icloud.com).
+I've faded away from [Twitter](https://twitter.com/cansurmeli/) due to too much noise going around(trust me, it really clears your head) and keeping the account still online just because I like my username there; so, the best way to reach me is via old-school [e-mail](mailto:cansurmeli@outlook.com).
 
-You can check my code on my [GitHub](https://github.com/cansurmeli/), see my discussions on [StackOverflow](https://stackoverflow.com/users/1169053/can) or view my photography at [500px](https://500px.com/c_surmeli).
+You can check my code on [GitHub](https://github.com/cansurmeli/), see my discussions on [StackOverflow](https://stackoverflow.com/users/1169053/can) or view my photography at [500px](https://500px.com/c_surmeli).
