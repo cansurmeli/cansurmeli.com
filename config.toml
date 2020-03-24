@@ -8,7 +8,7 @@ pygmentsOptions = "linenos=table"
 
 [params]
 	author = "Can Sürmeli"
-	description = "an eager to learn developer who hacks things and cares deeply about UI/UX; and also a sportsman"
+	description = "an eager to learn developer who hacks things and cares deeply about UI/UX; also a sportsman"
 	githubUsername = "cansurmeli"
 	highlight = true
 	highlightStyle = "solarized-dark"
