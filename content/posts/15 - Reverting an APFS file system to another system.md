@@ -7,7 +7,7 @@ draft: false
 type: "posts"
 content_dir: "/post-contents/15-reverting-an-apfs-file-system-to-another-system/"
 ---
-If you've ever formatted one of your storage devices file system to APFS and afterwards tried to convert it back to another file system, say ExFat, it's not doable with our good-old friend Disk Utility.
+If you've ever formatted one of your storage device's file system to APFS and afterwards tried to convert it back to another file system, say ExFat, it's not really straight-forward to do so.
 
 {{< img src="disk-utility-erase-apfs-unable.jpg" title="Unable to format an APFS drive in Disk Utility" >}}
 
@@ -25,9 +25,17 @@ Each container is able to export one or more volumes(the actual drives you see i
 
 ## So, tell me how?
 
-OK, enough talk; let's get to the action.
+OK, enough technical background; let's get to the action.
 
-If you want to convert an APFS formatted storage device to another format, you will have to go with using the Terminal. Disk Utility doesn't provide any options in that regard. At least, none that I could fin.  However, if you're unfamiliar with Terminal, be not afraid, it's quite straight-forward.
+### Via Disk Utility
+
+To accomplish this task via Disk Utility, you've to change the contents of the Sidebar. To do so, click the top left-most button and select `Show All Devices`. Afterwards, the sidebar will also reveal the containers and you can carry on as usual from there on.
+
+{{< img src="disk-utility-sidebar-content.png" title="Change what the sidebar reveals" >}}
+
+### The Terminal Way
+
+Of course, as always, it's also possible to do the same from your command line.
 
 First up, as usual, you should find the disk ID of your storage device. Hence, type the following command and find out the ID.
 
@@ -58,12 +66,6 @@ OK, now we're free. Now you can do whatever you want. It's actually possible to 
 	diskutil eraseDisk ExFat Transporter /dev/disk[ID]
 
 Oh, by the way, if you want to see other options, you can type `diskutil apfs`. Since, you know, if Apple hides something else.
-
-## Why Apple, Why?
-
-Yeah, but why? I mean, seriously Apple. Why have you done this?
-
-I get that APFS has a different structure and you had your reasons to build it but why not provide the same functionality in Disk Utility. As I mentioned above, I prefer working in Terminal but this easily causes confusion all around. I see no technical reason why Disk Utility can't do this.
 
 ## Resources
 
