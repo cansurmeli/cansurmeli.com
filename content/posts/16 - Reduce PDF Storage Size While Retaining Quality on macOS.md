@@ -4,7 +4,7 @@ slug: "reduce-PDF-storage-size-while-retaining-quality-on-macos"
 date: 2021-11-16
 tags: ["macOS", "productivity"]
 draft: false
-content_dir: "/post-contents/10-Raspberry-Pi-What-to-do-after-first-boot/"
+content_dir: "/post-contents/16-reduce-PDF-storage-size-while-retaining-quality-on-macos/"
 type: "posts"
 ---
 
@@ -82,9 +82,5 @@ I scanned a three page document on a scanner with the resolution setting at 600 
 
 # Resources
 
-https://www.oradba.ch/2018/05/reduce-pdf-size-in-mac-os-preview/
-
-https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
-
-
-https://www.macworld.com/article/218979/shrink-preview-files-without-ruining-image-quality.html
+- https://apple.stackexchange.com/questions/297417/how-to-decrease-pdf-size-without-losing-quality
+- https://www.macworld.com/article/218979/shrink-preview-files-without-ruining-image-quality.html
