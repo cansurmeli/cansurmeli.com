@@ -43,3 +43,4 @@ $RECYCLE.BIN/
 public/
 resources/_gen
 hugo.exe
+.hugo_build.lock
