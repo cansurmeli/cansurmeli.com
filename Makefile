@@ -3,9 +3,9 @@
 copyFLAGS = -ve --progress
 copyFILES = 
 syncFLAGS = -ravz --progress --delete --omit-dir-times
-sshALIAS = vps-legacy
+sshALIAS = vps
 currentDIR = /Users/can/Documents/Development/Web/cansurmeli.com/public/
-remoteDIR = /srv/cansurmeli.com/
+remoteDIR = /srv/www.cansurmeli.com/
 
 publish:
 	rm -rf public
